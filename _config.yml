@@ -1,7 +1,10 @@
 # site settings
 title: COVID-19 and food
 subtitle: A project by ADArable :)
-email: emma-farina@epfl.ch
+email1: tobias.bodenmann@epfl.ch
+email1: alexia.duriez@epfl.ch
+email1: emma.farina@epfl.ch
+email1: desiree.maula@epfl.ch
 description: 
 #baseurl: "/emma-farina.github.io" # the subpath of your site, e.g. /blog
 url: adarable.com # the base hostname & protocol for your site
