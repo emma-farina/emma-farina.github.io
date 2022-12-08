@@ -1,6 +1,6 @@
 <!-- Contact -->
 <section id="contact">
-	<div class="contact-method">
+	<div class="inner">
 		<section>
 			<h4>Contacts</h4>
 			<a href="mailto:{{ site.email1 }}">{{ site.email1 }}</a><br>
@@ -75,6 +75,7 @@
 <!-- Footer -->
 	<footer id="footer">
 		<div class="inner">
+			<h4>Visit our GitHub to know more about our project</h4>
 			<ul class="icons">
 				{% for key_value in site.socials %}
 					{% if key_value[1] %}
@@ -86,7 +87,6 @@
 					{% endif %}
 				{% endfor %}
 			</ul>
-			<h4>Visit our GitHub to know more about our project</h4>
 			<ul class="copyright">
 				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
 				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
