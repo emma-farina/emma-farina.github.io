@@ -3,7 +3,7 @@ title: COVID-19 and food
 subtitle: A project by ADArable :)
 email: emma-farina@epfl.ch
 description: 
-baseurl: "/emma-farina.github.io" # the subpath of your site, e.g. /blog
+#baseurl: "/emma-farina.github.io" # the subpath of your site, e.g. /blog
 url: adarable.com # the base hostname & protocol for your site
 author:
 street_address: 
