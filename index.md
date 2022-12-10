@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'How COVID-19 changed our food habits'
+landing-title: 'COVID-19 related changes in people's dietary habits'
 description: null
 image: null
 author: null
