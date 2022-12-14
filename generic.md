@@ -6,7 +6,7 @@ image: assets/images/pic11.jpg
 nav-menu: true
 ---
 
-Fantastic description of the data story with nice interactive plots???
+We have all experienced the negative impact of the lockdown on our health. Furthermore, studies have shown that the COVID-19 pandemic led to changes in people’s dietary habits. Some people took advantage of the lockdown as an opportunity to spend more time cooking [1]. However, sticking to the usual recipes quickly became tedious, pushing people to get out of their comfort zone and try new dishes. While some people took the opportunity to improve their diet quality (i.e., consuming more fresh products) [<a href="https://www.sciencedirect.com/science/article/pii/S0195666321006504">link</a>], others became more interested in high-calorie food, most likely out of boredom [2-3]. Finally, it is known that COVID-19 affects taste perception. Therefore, changes in food habits can also be caused by a loss of taste even for successive months after having been infected [4]. Using Wikipedia pageviews from 2018 to 2022, we will investigate the evolution of food habits caused by the COVID-19 pandemic.
 
 <hr class="major" />
 		
