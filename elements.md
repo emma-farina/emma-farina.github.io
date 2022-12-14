@@ -12,14 +12,14 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>Elements</h1>
+			<h1>Context</h1>
 		</header>
 
 <!-- Content -->
-<h2 id="content">COVID-19</h2>
+<!--<h2 id="content">Elements</h2>-->
 <p>Here we will do a nice introduction about how COVID-19 influenced the way we approach food and cooking.</p>
 <div class="row">
-	<--
+	<!--
 	<div class="6u 12u$(small)">
 		<h3>Sem turpis amet semper</h3>
 		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
@@ -44,7 +44,9 @@ nav-menu: true
 	</div>
 </div>
 
+	
 <hr class="major" />
+		
 
 <!-- Elements -->
 <h2 id="elements">Elements</h2>
@@ -411,3 +413,4 @@ print 'It took ' + i + ' iterations to sort the deck.';
 </section>
 
 </div>
+
