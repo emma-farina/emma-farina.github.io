@@ -9,7 +9,27 @@ nav-menu: true
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-6b75f858-bddf-4337-ac71-6f451970c67c"></div>
 
-Beautiful data story :)
+<h2 id="intro">Background and motivation</h2>
+
+Bla bla about what we want to know and why we think Wikipedia and Google Trends are representative of people's interests.
+
+<h2 id="datasets">Datasets</h2>
+
+<h4>Wikipedia</h4>
+
+Description of the pages we are selecting (categories) and languages. Description of how we are querying them?
+
+<h4>Google Trends</h4>
+
+Description of the pages we are selecting and how it works, which information we get.
+
+<h4>Interventions data</h4>
+
+Description of what information they provide and for which countries.
+
+<h4>Mobility data</h4>
+
+Description of data structure.
 
 <hr class="major" />
 		
