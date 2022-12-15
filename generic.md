@@ -53,11 +53,11 @@ Seasonal Trends<br>
 Cuisine similarities<br>
 Correlations across cuisines / across wikipedias<br>
 
-<h2> id="q3">Food delivery services</h2>
+<h2 id="q3">Food delivery services</h2>
 
 Replicate analysis from publication.
 
-<h2> id="conclusion">Conclusion</h2>
+<h2 id="conclusion">Conclusion</h2>
 
 Conclusion on how did Covid 19 pandemic impact food preferences: more or less healthy, more or less exploring, more or less food ordering.
 
