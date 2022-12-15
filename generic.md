@@ -13,23 +13,26 @@ nav-menu: true
 
 Bla bla about what we want to know and why we think Wikipedia and Google Trends are representative of people's interests.
 
-<h2 id="datasets">Datasets</h2>
+<h2>Datasets</h2>
+<dl>
+	<dt>Wikipedia</dt>
+	<dd>
+		<p>Description of the pages we are selecting (categories) and languages. Description of how we are querying them?</p>
+	</dd>
+	<dt>Google Trends</dt>
+	<dd>
+		<p>Description of the pages we are selecting and how it works, which information we get.</p>
+	</dd>
+	<dt>Interventions data</dt>
+	<dd>
+		<p>Description of what information they provide and for which countries.</p>
+	</dd>
+	<dt>Mobility data</dt>
+	<dd>
+		<p>Description of data structure.</p>
+	</dd>
+</dl>
 
-<h4>Wikipedia</h4>
-
-Description of the pages we are selecting (categories) and languages. Description of how we are querying them?
-
-<h4>Google Trends</h4>
-
-Description of the pages we are selecting and how it works, which information we get.
-
-<h4>Interventions data</h4>
-
-Description of what information they provide and for which countries.
-
-<h4>Mobility data</h4>
-
-Description of data structure.
 
 <hr class="major" />
 		
