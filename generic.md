@@ -33,6 +33,34 @@ Bla bla about what we want to know and why we think Wikipedia and Google Trends 
 	</dd>
 </dl>
 
+<h2 id="q1">Healthy food</h2>
+
+Pie chart that shows which pages we are considering for the two categories.<br>
+Table showing for each language the food that displays the most impressive changes from pre covid to covid (to post?) + show interventions<br>
+Text analysing in detail the most interesting results.<br>
+Geographic interactive map or just geographic map with colors: calculate ratio healthy/ unhealthy for different stages (pre covid, lockdown, post covid, etc), t-test with interventions and cross-correlation with mobility data.<br>
+Barplots (one bar per language) with healthy and unhealthy bar on top of each other (one pre covid, one lockdown, one post covid).<br>
+Text comparing results for countries with and without lockdown.
+
+<h2 id="q2">Cultural interests</h2>
+
+Pie chart that shows which pages we are considering for the two categories.<br>
+Table showing for each language the food that displays the most impressive changes from pre covid to covid (to post?) + show interventions<br>
+Text analysing in detail the most interesting results.<br>
+Interactive globe displaying from where the traditional food is from (with examples (most known per cuisine) and summary of results (changes per food across all wikipedias or one can select wikipedia language)  or show in what cuisines one is most interested in with increasing time.<br>
+Geographic interactive map or just geographic map with colors: calculate ratio traditional/foreign for different stages (pre covid, lockdown, post covid, etc), t-test with interventions and cross-correlation with mobility data.<br>
+Seasonal Trends<br>
+Cuisine similarities<br>
+Correlations across cuisines / across wikipedias<br>
+
+<h2> id="q3">Food delivery services</h2>
+
+Replicate analysis from publication.
+
+<h2> id="conclusion">Conclusion</h2>
+
+Conclusion on how did Covid 19 pandemic impact food preferences: more or less healthy, more or less exploring, more or less food ordering.
+
 
 <hr class="major" />
 		
