@@ -2,9 +2,12 @@
 layout: post
 title: Data story
 description: Our amazing project
-image: assets/images/pic11.jpg
+image: None
 nav-menu: true
 ---
+
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-6b75f858-bddf-4337-ac71-6f451970c67c"></div>
 
 Beautiful data story :)
 
