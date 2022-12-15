@@ -44,7 +44,9 @@ nav-menu: true
 		<p>Did mobility restrictions during the pandemic influence the frequency of food delivery orders? Did delivery services permanently become part of most people's lives?</p>
 	</div>
 </div>
-
+		
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-6b75f858-bddf-4337-ac71-6f451970c67c"></div>
 	
 <hr class="major" />
 		
