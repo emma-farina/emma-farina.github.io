@@ -46,121 +46,20 @@ nav-menu: true
 	</div>
 </div>
 		
-<section class="page-section" id="Background">
-            <div class="container">
-                <div class="text-center" style="padding-bottom:50px";>
-                    <h2>Historical Background</h2>
-                    <h4> Relations between the UK and the rest of Europe have always been a complicated affair. Before getting into the heart of the matter, below is a summary of the major points of the UK-EU relation:<br /> </h4>
-                </div>
-                <ul class="timeline">
-                    </li>
-                    <li class="timeline">
-                        <div class="timeline-image">
-                            <h1>
-                                1950
-                                <br />
-                            </h1>
-                        </div>
-                        <div class="timeline-panel", style="padding-left: 0px;">
-                            <div class="timeline-heading">
-                                <h4>The United Kingdom refuses to participate in the ECSC </h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Robert Schuman, one of the founding fathers of Europe, presents his plan for the creation of a European Coal and Steel Community (ECSC). The United Kingdom refuses to participate. </p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h1>
-                                1963
-                                <br />
-                            </h1>
-                        </div>
-                        <div class="timeline-panel", style="padding-right: 0px;">
-                            <div class="timeline-heading">
-                                <h4>France opposes the integration of the UK into the EEC </h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Created in 1957, the European Economic Community (EEC) continues the work undertaken by the ECSC. In 1963 and 1967, France rejected the two British proposals to join the EEC.</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline">
-                        <div class="timeline-image">
-                            <h1>
-                                1973
-                                <br />
-                            </h1>
-                        </div>
-                        <div class="timeline-panel", style="padding-left: 0px;">
-                            <div class="timeline-heading">
-                                <div>
-                                <h4>UK's entry into the EEC</h4>
-                                </div>
-                            </div>
-                            <div>
-                            <div class="timeline-body"><p class="text-muted">The United Kingdom's third application to join the EEC is accepted. Consulted by referendum, the British approved the integration.</p></div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h1>
-                                1979
-                                <br />
-                            </h1>
-                        </div>
-                        <div class="timeline-panel", style="padding-right: 0px;">
-                            <div class="timeline-heading">
-                                <h4>Margaret Thatcher "wants her money back"</h4>
-                            </div>
-                            <div class="timeline-body" ><p class="text-muted">In 1979, the then elected Prime Minister, Margaret Thatcher, entered into conflict with the European Union and demanded a reduction of her country's contribution to the Community budget.</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline">
-                        <div class="timeline-image">
-                            <h1>
-                                1992
-                                <br />
-                            </h1>
-                        </div>
-                        <div class="timeline-panel", style="padding-left: 0px;">
-                            <div class="timeline-heading">
-                                <div>
-                                <h4> UK ratifies Maastricht Treaty but rejects single currency </h4>
-                            </div> </div> 
-                            <div class="timeline-body"><p class="text-muted">Conservative John Major ratifies the Maastricht Treaty, but obtains a clause allowing the UK to keep their national currency. </p></div>
-                        </div>
-                        
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h1>
-                                2016
-                                <br />
-                            </h1>
-                        </div>
-                        <div class="timeline-panel", style="padding-right: 0px;">
-                            <div class="timeline-heading">
-                                <h4> The British vote to leave the EU </h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted"> On the 23rd of June 2016, the British voted to leave the European Union by 52% to 48%. </p></div>
-                        </div>
-                    </li>
-                    <li class="timeline">
-                        <div class="timeline-image">
-                            <h1>
-                                2020
-                                <br />
-                            </h1>
-                        </div>
-                        <div class="timeline-panel", style="padding-left: 0px;">
-                            <div class="timeline-heading">
-                                <h4>The United Kingdom leaves the European Union </h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">After more than three and a half years of negotiations, two general elections, and three Prime Ministers, the Brexit is finally effective at midnight on 31 January. </p></div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
+ <div class="timeline">
+  <div class="container left">
+    <div class="content">
+      <h2>2017</h2>
+      <p>Lorem ipsum..</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>2016</h2>
+      <p>Lorem ipsum..</p>
+    </div>
+  </div>
+</div>
 		
 	
 <hr class="major" />
