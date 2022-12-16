@@ -187,48 +187,48 @@ body {
   <div class="container left" data-aos="fade-up" data-aos-delay="200">
     <div class="content">
       <h4 style="color: #232943">January 2020</h4>
-      <small style="color: #232943" font size="-1">First COVID-19 cases in Italy, Germany, France, Spain, Sweden, Finland, Korea, and Japan.</small>
+      <small style="color: #232943">First COVID-19 cases in Italy, Germany, France, Spain, Sweden, Finland, Korea, and Japan.</small>
     </div>
   </div>
   <div class="container right" data-aos="fade-up" data-aos-delay="200">
     <div class="content">
       <h4 style="color: #232943">February 2020</h4>
-      <small style="color: #232943" fint size="-1">First COVID-19 cases in Norway, Denmark, and the Netherlands.<br>
+      <small style="color: #232943">First COVID-19 cases in Norway, Denmark, and the Netherlands.<br>
 	First COVID-19 deaths in Italy, France, Spain, Norway, Korea, and Japan.<br>
 	School closure in Korea and Japan. Public events banned in Japan.</small>
     </div>
   </div>
   <div class="container left">
     <div class="content">
-      <h2 style="color: #232943">March 2020</h2>
-      <p style="color: #232943">First COVID-19 cases in Serbia.</p>
-	    <p style="color: #232943">First COVID-19 deaths in Germany, Serbia, Netherlands, Denmark, Sweden, and Finland.</p>
-	    <p style="color: #232943">School closure and public events banned in European countries.</p>
-	    <p style="color: #232943">Beginning of lockdown in all countries considered, except for the Netherlands, Sweden, Finland, Korea, and Japan.</p>
+      <h4 style="color: #232943">March 2020</h4>
+      <small style="color: #232943">First COVID-19 cases in Serbia.<br>
+	    First COVID-19 deaths in Germany, Serbia, Netherlands, Denmark, Sweden, and Finland.<br>
+	    School closure and public events banned in European countries.<br>
+	    Beginning of lockdown in all countries considered, except for the Netherlands, Sweden, Finland, Korea, and Japan.</small>
     </div>
   </div>
   <div class="container right">
     <div class="content">
-      <h2 style="color: #232943">April 2020</h2>
-      <p style="color: #232943">Back to normality in Korea.</p>
+      <h4 style="color: #232943">April 2020</h4>
+      <small style="color: #232943">Back to normality in Korea.</small>
     </div>
   </div>
   <div class="container left">
     <div class="content">
-      <h2 style="color: #232943">May 2020</h2>
-      <p style="color: #232943">Back to normality in Serbia, Finland, and the Netherlands.</p>
+      <h4 style="color: #232943">May 2020</h4>
+      <small style="color: #232943">Back to normality in Serbia, Finland, and the Netherlands.</small>
     </div>
   </div>
   <div class="container right">
     <div class="content">
-      <h2 style="color: #232943">June 2020</h2>
-      <p style="color: #232943">Back to normality in Italy, Denmark, Norway, and Japan.</p>
+      <h4 style="color: #232943">June 2020</h4>
+      <small style="color: #232943">Back to normality in Italy, Denmark, Norway, and Japan.</small>
     </div>
   </div>
   <div class="container left">
     <div class="content">
-      <h2 style="color: #232943">July 2020</h2>
-      <p style="color: #232943">Back to normality in France and Germany.</p>
+      <h4 style="color: #232943">July 2020</h4>
+      <small style="color: #232943">Back to normality in France and Germany.</small>
     </div>
   </div>
 </div>
