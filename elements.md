@@ -186,8 +186,8 @@ body {
 <div class="timeline">
   <div class="container left" data-aos="fade-up" data-aos-delay="200">
     <div class="content">
-      <h2 style="color: #232943">January 2020</h2>
-      <p style="color: #232943">First COVID-19 cases in Italy, Germany, France, Spain, Sweden, Finland, Korea, and Japan.</p>
+      <h4 style="color: #232943">January 2020</h4>
+      <style="color: #232943">First COVID-19 cases in Italy, Germany, France, Spain, Sweden, Finland, Korea, and Japan.<>
     </div>
   </div>
   <div class="container right" data-aos="fade-up" data-aos-delay="200">
