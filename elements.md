@@ -142,7 +142,7 @@ body {
 
 /* The actual content */
 .content {
-  /*padding: 20px 30px;*/
+  padding: 15px 15px;
   background-color: white;
   position: relative;
   border-radius: 6px;
