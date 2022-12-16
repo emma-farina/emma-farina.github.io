@@ -46,8 +46,6 @@ nav-menu: true
 	</div>
 </div>
 		
- <!DOCTYPE html>
-<html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
@@ -141,7 +139,7 @@ body {
 
 /* Fix the circle for containers on the right side */
 .right::after {
-  left: -16px;
+  left: -10px;
 }
 
 /* The actual content */
@@ -161,7 +159,7 @@ body {
   
   /* Full-width containers */
   .container {
-  width: 100%;
+  width: 80%;
   padding-left: 70px;
   padding-right: 25px;
   }
@@ -228,7 +226,6 @@ body {
 </div>
 
 </body>
-</html>
 
 		
 	
