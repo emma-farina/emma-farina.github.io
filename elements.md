@@ -99,7 +99,7 @@ body {
 
 /* Place the container to the left */
 .left {
-  left: 0;
+  left: 50%; /* changed here from 0 */
 }
 
 /* Place the container to the right */
