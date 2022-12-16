@@ -145,7 +145,7 @@ body {
 /* The actual content */
 .content {
   padding: 20px 30px;
-  7* background-color: white; */
+  /* background-color: white; */
   position: relative;
   border-radius: 6px;
 }
