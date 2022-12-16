@@ -195,18 +195,15 @@ body {
   <div class="container right" data-aos="fade-up" data-aos-delay="200">
     <div class="content">
       <h4 style="color: #232943">February 2020</h4>
-      <small style="color: #232943">First COVID-19 cases in Norway, Denmark, and the Netherlands.<br>
-	First COVID-19 deaths in Italy, France, Spain, Norway, Korea, and Japan.<br>
+      <small style="color: #232943">First COVID-19 cases in Norway, Denmark, and the Netherlands. First deaths in Italy, France, Spain, Norway, Korea, and Japan.<br><br>
 	School closure in Korea and Japan. Public events banned in Japan.</small>
     </div>
   </div>
   <div class="container left">
     <div class="content">
       <h4 style="color: #232943">March 2020</h4>
-      <small style="color: #232943">First COVID-19 cases in Serbia.<br>
-	    First COVID-19 deaths in Germany, Serbia, Netherlands, Denmark, Sweden, and Finland.<br>
-	    School closure and public events banned in European countries.<br>
-	    Beginning of lockdown in all countries considered, except for the Netherlands, Sweden, Finland, Korea, and Japan.</small>
+      <small style="color: #232943">First COVID-19 cases in Serbia. First deaths in Germany, Serbia, Netherlands, Denmark, Sweden, and Finland.<br><br>
+	    School closure and public events banned in European countries. Beginning of lockdown in all countries considered, except for the Netherlands, Sweden, Finland, Korea, and Japan, which never had lockdown.</small>
     </div>
   </div>
   <div class="container right">
