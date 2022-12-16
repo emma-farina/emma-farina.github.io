@@ -91,7 +91,7 @@ body {
   position: absolute;
   width: 25px;
   height: 25px;
-  right: -17px;
+  right: -12px;
   background-color: white;
   border: 4px solid #FF9F55;
   top: 15px;
@@ -139,7 +139,7 @@ body {
 
 /* Fix the circle for containers on the right side */
 .right::after {
-  left: -10px;
+  left: -12px;
 }
 
 /* The actual content */
