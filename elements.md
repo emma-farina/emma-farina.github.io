@@ -90,7 +90,7 @@ body {
   width: 25px;
   height: 25px;
   right: -13px;
-  background-color: #063970;
+  background-color: #232943;
   border: 4px solid white;
   top: 15px;
   border-radius: 50%;
@@ -186,38 +186,38 @@ body {
 <div class="timeline">
   <div class="container left" data-aos="fade-up" data-aos-delay="200">
     <div class="content">
-      <h2 style="color: #063970">2017</h2>
-      <p style="color: #063970">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h2 style="color: #232943">2017</h2>
+      <p style="color: #232943">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
     </div>
   </div>
   <div class="container right" data-aos="fade-up" data-aos-delay="200">
     <div class="content">
-      <h2 style="color: #063970">2016</h2>
-      <p style="color: #063970">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h2 style="color: #232943">2016</h2>
+      <p style="color: #232943">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
     </div>
   </div>
   <div class="container left">
     <div class="content">
-      <h2 style="color: #063970">2015</h2>
-      <p style="color: #063970">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h2 style="color: #232943">2015</h2>
+      <p style="color: #232943">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
-      <h2 style="color: #063970">2012</h2>
-      <p style="color: #063970">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h2 style="color: #232943">2012</h2>
+      <p style="color: #232943">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
     </div>
   </div>
   <div class="container left">
     <div class="content">
-      <h2 style="color: #063970">2011</h2>
-      <p style="color: #063970">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h2 style="color: #232943">2011</h2>
+      <p style="color: #232943">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
-      <h2 style="color: #063970">2007</h2>
-      <p style="color: #063970">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h2 style="color: #232943">2007</h2>
+      <p style="color: #232943">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
     </div>
   </div>
 </div>
