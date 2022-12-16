@@ -88,12 +88,12 @@ body {
 /* The circles on the timeline */
 .container::after {
   content: '';
-  position: absolute;
+  position: absolute; /* position settings for circles on the timeline */
   width: 25px;
   height: 25px;
-  right: -12px;
-  background-color: white;
-  border: 4px solid #FF9F55;
+  right: -13px;
+  background-color: white; /* background color for circles on the timeline */
+  border: 4px solid #FF9F55; /* contour color for circles on the timeline */
   top: 15px;
   border-radius: 50%;
   z-index: 1;
