@@ -16,7 +16,8 @@
 		> section {
 			@include vendor('display', 'flex');
 			@include vendor('flex-direction', 'row');
-			background-color: desaturate(lighten(_palette(bg-alt), 2), 1);
+			//background-color: desaturate(lighten(_palette(bg-alt), 2), 1);
+			background-color: inherit
 
 			> .image {
 				background-position: center center;
