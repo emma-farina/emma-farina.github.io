@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data story
-description: Our amazing project
+description: 
 image: None
 nav-menu: true
 ---
