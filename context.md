@@ -237,7 +237,7 @@ body {
 </div>
 		</body>
 
-<p> </p>
+<p>                                                                                                                                                                        </p>
 <p>Using Wikipedia pageviews and Google Trends data from 2018 to 2022, we will investigate the evolution of food habits caused by the COVID-19 pandemic. With the assumption that we can use Wikipedia pageviews and Google Trends data to infer changes in food behavior [<a href="https://www.mdpi.com/2072-6643/13/11/3683/htm">5</a>], we aim at addressing the following questions.</p>
 		
 		
