@@ -183,11 +183,18 @@ body {
   }
 }
 </style>
+		
+		@include vendor('transition', (
+				'opacity 1.5s ease',
+				'transform 0.5s ease-out',
+				'filter 0.5s ease',
+				'-webkit-filter 0.5s ease'
+			));
 	
 <body>
 <div class="timeline">
-  <div class="container left" data-aos="fade-up" data-aos-delay="200">
-    <div class="content">
+  <div class="container left" transition='opacity 1.5s ease'>
+    <div class="content" transition='opacity 1.5s ease'>
       <h4 style="color: #232943">January 2020</h4>
       <small style="color: #232943">First COVID-19 cases in Italy, Germany, France, Spain, Sweden, Finland, Korea, and Japan.</small>
     </div>
