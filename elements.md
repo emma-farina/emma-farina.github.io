@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Context
-image: assets/images/pic01.jpg
+image: None
 nav-menu: true
 ---
 
