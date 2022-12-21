@@ -6,8 +6,8 @@ email2: alexia.duriez@epfl.ch
 email3: emma.farina@epfl.ch
 email4: desiree.maula@epfl.ch
 description: 
-#baseurl: "/emma-farina.github.io" # the subpath of your site, e.g. /blog
-url:  "/adarable" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+#url:  "/adarable" # the base hostname & protocol for your site
 author:
 street_address: 
 city: 
