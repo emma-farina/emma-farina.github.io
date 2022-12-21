@@ -184,12 +184,6 @@ body {
 }
 </style>
 		
-		@include vendor('transition', (
-				'opacity 1.5s ease',
-				'transform 0.5s ease-out',
-				'filter 0.5s ease',
-				'-webkit-filter 0.5s ease'
-			));
 	
 <body>
 <div class="timeline">
