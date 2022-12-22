@@ -21,7 +21,7 @@ Bla bla about what we want to know and why we think Wikipedia and Google Trends 
 
 <!--<iframe src="https://emma-farina.github.io/try_website.html" width="800" height="600"></iframe>-->
 
-<iframe src="https://emma-farina.github.io/try_website.html" width=800 height=780 id="graph1"></iframe> 
+<!-- <iframe src="try_website.html" width=800 height=780 id="graph1"></iframe> -->
 
 <!--{% include imageplotly.html figname="try_website.html" %}-->
 
