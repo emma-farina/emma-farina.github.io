@@ -269,7 +269,7 @@ body {
 				<header class="major">
 					<h3>Cultural interests</h3>
 				</header>
-				<p>When trying out new dishes did individuals become more interested in their own history and traditions, or did they want to explore the cuisine of other cultures?</p>
+				<p>When trying out new dishes, did individuals become more interested in their own history and traditions, or did they want to explore the cuisine of other cultures?</p>
 				<ul class="actions">
 					<li><a href="data_story.html#q2" class="button">Learn more</a></li>
 				</ul>
