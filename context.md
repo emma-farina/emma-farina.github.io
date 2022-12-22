@@ -18,7 +18,7 @@ nav-menu: true
 <!-- Content -->
 <!--<h2 id="content">Elements</h2>-->
 		
-<p>We have all experienced the negative impact of the lockdown on our health. Furthermore, studies have shown that the COVID-19 pandemic led to changes in people’s dietary habits. Some people took advantage of the lockdown as an opportunity to spend more time cooking [<a href="https://www.sciencedirect.com/science/article/pii/S0195666321006504">1</a>]. However, sticking to the usual recipes quickly became tedious, pushing people to get out of their comfort zone and try new dishes. While some people took the opportunity to improve their diet quality (i.e., consuming more fresh products) [<a href="https://www.sciencedirect.com/science/article/pii/S0195666321006504">1</a>], others became more interested in high-calorie food, most likely out of boredom [<a href="https://www.nature.com/articles/s41467-022-28498-z">2</a>-<a href="https://link.springer.com/article/10.1007/s13679-021-00466-6">3</a>]. Finally, the restrictions related to COVID-19 brought people to make more use of food delivery services [<a href="https://towardsdatascience.com/the-impact-of-covid-19-on-food-delivery-services-in-the-u-s-47eae04655c8">4</a>]. This new habit has transformed customers' experience, likely persisting even after the end of lockdown.</p>
+<p align="justify">We have all experienced the negative impact of the lockdown on our health. Furthermore, studies have shown that the COVID-19 pandemic led to changes in people’s dietary habits. Some people took advantage of the lockdown as an opportunity to spend more time cooking [<a href="https://www.sciencedirect.com/science/article/pii/S0195666321006504">1</a>]. However, sticking to the usual recipes quickly became tedious, pushing people to get out of their comfort zone and try new dishes. While some people took the opportunity to improve their diet quality (i.e., consuming more fresh products) [<a href="https://www.sciencedirect.com/science/article/pii/S0195666321006504">1</a>], others became more interested in high-calorie food, most likely out of boredom [<a href="https://www.nature.com/articles/s41467-022-28498-z">2</a>-<a href="https://link.springer.com/article/10.1007/s13679-021-00466-6">3</a>]. Finally, the restrictions related to COVID-19 brought people to make more use of food delivery services [<a href="https://towardsdatascience.com/the-impact-of-covid-19-on-food-delivery-services-in-the-u-s-47eae04655c8">4</a>]. This new habit has transformed customers' experience, likely persisting even after the end of lockdown.</p>
 	
 		
 <!--<div class="row">-->
@@ -51,7 +51,7 @@ nav-menu: true
 -->
 		
 		
-<p>Let's first have a look at how different countries were affected by COVID-19, to get an idea of the timeline of the pandemic.</p>
+<p align="justify">Let's first have a look at how different countries were affected by COVID-19, to get an idea of the timeline of the pandemic.</p>
 		
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
@@ -240,7 +240,7 @@ body {
 </div>
 		
 <p>                                                                                                                                                                        </p>
-<p>Using Wikipedia pageviews and Google Trends data from 2018 to 2022, we will investigate the evolution of food habits caused by the COVID-19 pandemic. With the assumption that we can use Wikipedia pageviews and Google Trends data to infer changes in food behavior [<a href="https://www.mdpi.com/2072-6643/13/11/3683/htm">5</a>], we aim at addressing the following questions.</p>
+<p align="justify">Using Wikipedia pageviews and Google Trends data from 2018 to 2022, we will investigate the evolution of food habits caused by the COVID-19 pandemic. With the assumption that we can use Wikipedia pageviews and Google Trends data to infer changes in food behavior [<a href="https://www.mdpi.com/2072-6643/13/11/3683/htm">5</a>], we aim at addressing the following questions.</p>
 		
 <!--<hr class="major" />-->
 		
@@ -254,7 +254,7 @@ body {
 				<header class="major">
 					<h3>Healthy food</h3>
 				</header>
-				<p>Did healthy food become more popular, in an effort to preserve one’s health, or did unhealthy food receive the most attention?</p>
+				<p align="justify">Did healthy food become more popular, in an effort to preserve one’s health, or did unhealthy food receive the most attention?</p>
 				<ul class="actions">
 					<li><a href="data_story.html#q1" class="button">Learn more</a></li>
 				</ul>
@@ -270,7 +270,7 @@ body {
 				<header class="major">
 					<h3>Cultural interests</h3>
 				</header>
-				<p>When trying out new dishes, did individuals become more interested in their own history and traditions, or did they want to explore the cuisine of other cultures?</p>
+				<p align="justify">When trying out new dishes, did individuals become more interested in their own history and traditions, or did they want to explore the cuisine of other cultures?</p>
 				<ul class="actions">
 					<li><a href="data_story.html#q2" class="button">Learn more</a></li>
 				</ul>
@@ -286,7 +286,7 @@ body {
 				<header class="major">
 					<h3>Food delivery services</h3>
 				</header>
-				<p>Did mobility restrictions during the pandemic influence the frequency of food delivery orders? Did delivery services permanently become part of most people's lives?</p>
+				<p align="justify">Did mobility restrictions during the pandemic influence the frequency of food delivery orders? Did delivery services permanently become part of most people's lives?</p>
 				<ul class="actions">
 					<li><a href="data_story.html#q3" class="button">Learn more</a></li>
 				</ul>
