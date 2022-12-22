@@ -277,7 +277,7 @@ body {
 		</div>
 	</section>
 	<section>
-		<a href="data_story#q3.html" class="image">
+		<a href="data_story.html#q3" class="image">
 			<img src="{% link assets/images/food_delivery.jpeg %}" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
