@@ -61,6 +61,12 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 	<iframe src="./plots/PageviewsCultures1.html" height=550 width=1200></iframe>
 		
 	<p align="justify">Do you notice some re-occurring fluctuations or some interesting spikes? For instance, if you look at the Italian Wikipedia, German cuisine appears to gain popularity each winter, whereas Greek cuisine becomes more popular during the summer. In fact, traditional German cuisine is based on bread, potatoes and meat, especially pork, heavier foods that provide comfort and warmth during the cold months. On the other hand, the most famous Greek recipes include ingredients such as yogurt, cucumber and seafood, which are refreshing and more suitable for the summer. Thai cuisine has a recurrent spike in September, when Thai food festivals are held all around the world. The German and Dutch Wikipedia show seasonal fluctuations for many cuisines, while the English version, being representative of Wikipedia users from every corner of the world, not that much. It can still show some sudden interest shifts that characterized the whole globe, like the great increase in pageviews for Japanese cuisine in correspondence to the Tokyo 2020 Olympic games, or something that went viral for a brief period.</p>
+		
+		<p align="justify">Explore the plot below to get an idea of the distribution of the pageviews for every cuisine in the different Wikipedia langueges. Zoom in and hover over the boxplots to see the minimum, maximum, median, first and third quartiles, and upper and lower fences.</p>
+		
+		<iframe src="./plots/DistributionPageviewsCulturesLog.html" height=550 width=1200></iframe>
+		
+		<p align="justify"></p>
 
 
 <h2 id="q3">Food delivery services</h2>
