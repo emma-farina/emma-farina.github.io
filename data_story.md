@@ -18,7 +18,7 @@ nav-menu: true
 
 <h2 id="intro">Background and motivation</h2>
 
-<p align="justify">Prova7! During the pandemic, there were significant changes in people's daily routines and habits, including the way they shopped for and prepared food. For example, some people may have started cooking at home more often due to stay-at-home orders or concerns about going out to eat, which could have led to an increase in Wikipedia pageviews for food-related topics as people sought information on cooking and recipe ideas. On the other hand, some people may have been less interested in food-related topics due to stress or other distractions related to the pandemic, which could have led to a decrease in Wikipedia pageviews.
+<p align="justify">During the pandemic, there were significant changes in people's daily routines and habits, including the way they shopped for and prepared food. For example, some people may have started cooking at home more often due to stay-at-home orders or concerns about going out to eat, which could have led to an increase in Wikipedia pageviews for food-related topics as people sought information on cooking and recipe ideas. On the other hand, some people may have been less interested in food-related topics due to stress or other distractions related to the pandemic, which could have led to a decrease in Wikipedia pageviews.
 
 It is also worth noting that Wikipedia pageviews can be influenced by a variety of factors beyond the pandemic, such as the availability of alternative sources of information, changes in search trends, and the overall popularity of a topic.
 
@@ -56,16 +56,9 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 
 <h2 id="q2">Cultural interests</h2>
 		
-<iframe src="./plots/WorldMap.html" height=550 width=1200></iframe>
+<p align="justify">In this section, we will investigate the interests shifts during COVID-19 in terms of cuisines from all around the world. When trying out new dishes, did individuals become more interested in their own history and traditions, or did they want to explore the cuisine of other cultures? To answer this question, we extracted the pageviews for the Wikipedia pages related to 20 different cuisines. You can have a first overview of the data by looking at the plot below, which shows the evolution of the number of clicks on each of the cuisines considered between 2018 and 2022. You can change the Wikipedia language you are interested in using the dropdown menu.</p>
 		
-<p align="justify">Pie chart that shows which pages we are considering for the two categories.<br>
-Table showing for each language the food that displays the most impressive changes from pre covid to covid (to post?) + show interventions<br>
-Text analysing in detail the most interesting results.<br>
-Interactive globe displaying from where the traditional food is from (with examples (most known per cuisine) and summary of results (changes per food across all wikipedias or one can select wikipedia language)  or show in what cuisines one is most interested in with increasing time.<br>
-Geographic interactive map or just geographic map with colors: calculate ratio traditional/foreign for different stages (pre covid, lockdown, post covid, etc), t-test with interventions and cross-correlation with mobility data.<br>
-Seasonal Trends<br>
-Cuisine similarities<br>
-	Correlations across cuisines / across wikipedias</p>
+<iframe src="./plots/PageviewsCultures1.html" height=550 width=1200></iframe>
 
 <h2 id="q3">Food delivery services</h2>
 
