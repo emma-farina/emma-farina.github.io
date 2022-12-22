@@ -17,7 +17,7 @@ It is also worth noting that Wikipedia pageviews can be influenced by a variety 
 
 Bla bla about what we want to know and why we think Wikipedia and Google Trends are representative of people's interests.
 
-<a href="https://emma-farina.github.io/try_website.html">View Plot</a>
+<!--<a href="https://emma-farina.github.io/try_website.html">View Plot</a>-->
 
 <!--<iframe src="https://emma-farina.github.io/try_website.html" width="800" height="600"></iframe>-->
 
