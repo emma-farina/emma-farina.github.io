@@ -21,7 +21,7 @@ Bla bla about what we want to know and why we think Wikipedia and Google Trends 
 
 <!--<iframe src="https://emma-farina.github.io/try_website.html" width="800" height="600"></iframe>-->
 
-{% include try_website.html figname="fig1.html" title="Before Snowden" description="> Before June 2013, people were more and more engaging with the articles related to terrorism" %}
+{% include plotlytext.html figname="try_website.html" title="Before Snowden" description="> Before June 2013, people were more and more engaging with the articles related to terrorism" %}
 
 <h2>Datasets</h2>
 <dl>
