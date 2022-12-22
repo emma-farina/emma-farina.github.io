@@ -246,7 +246,7 @@ body {
 <section id="research_questions" class="spotlights">
 	<section>
 		<a href="data_story.html#q1" class="image">
-			<img src="{% link assets/images/food_healthy.jpeg %}" alt="" data-position="center center" />
+			<img src="{% link assets/images/food_healthy.jpg %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -278,7 +278,7 @@ body {
 	</section>
 	<section>
 		<a href="data_story.html#q3" class="image">
-			<img src="{% link assets/images/food_delivery.jpeg %}" alt="" data-position="25% 25%" />
+			<img src="{% link assets/images/food_delivery.jpg %}" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
