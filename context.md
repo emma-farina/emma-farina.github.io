@@ -52,7 +52,6 @@ nav-menu: true
 		
 		
 <p>Let's first have a look at how different countries were affected by COVID-19, to get an idea of the timeline of the pandemic.</p>
-		</section>
 		
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
@@ -190,6 +189,7 @@ body {
 }
 </style>
 		
+		<body>
 <section id="timeline">
 	<section>
 <div class="timeline">
@@ -238,8 +238,8 @@ body {
     </div>
   </div>
 </div>
-		</section>
-
+		</body>
+		
 <p>                                                                                                                                                                        </p>
 <p>Using Wikipedia pageviews and Google Trends data from 2018 to 2022, we will investigate the evolution of food habits caused by the COVID-19 pandemic. With the assumption that we can use Wikipedia pageviews and Google Trends data to infer changes in food behavior [<a href="https://www.mdpi.com/2072-6643/13/11/3683/htm">5</a>], we aim at addressing the following questions.</p>
 		
