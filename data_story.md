@@ -58,7 +58,7 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 		
 <p align="justify">In this section, we will investigate the interests shifts during COVID-19 in terms of cuisines from all around the world. When trying out new dishes, did individuals become more interested in their own history and traditions, or did they want to explore the cuisine of other cultures? To answer this question, we extracted the pageviews for the Wikipedia pages related to 20 different cuisines. You can have a first overview of the data by looking at the plot below, which shows the evolution of the number of clicks on each of the cuisines considered between 2018 and 2022. You can change the Wikipedia language you are interested in using the dropdown menu.</p>
 		
-<iframe src="./plots/PageviewsCultures1.html" height=550 width=1200></iframe>
+		<p align="center"><iframe src="./plots/PageviewsCultures1.html" height=550 width=1200></iframe></p>
 
 <h2 id="q3">Food delivery services</h2>
 
