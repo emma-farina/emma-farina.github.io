@@ -56,7 +56,7 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 
 <h2 id="q2">Cultural interests</h2>
 		
-<iframe src="try_website.html"></iframe>
+<iframe src="try_website.html" height=550 width=1200></iframe>
 
 <p>Pie chart that shows which pages we are considering for the two categories.<br>
 Table showing for each language the food that displays the most impressive changes from pre covid to covid (to post?) + show interventions<br>
