@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Data story
 description: 
 image: None
@@ -11,7 +11,7 @@ nav-menu: true
 
 <h2 id="intro">Background and motivation</h2>
 
-Prova5 During the pandemic, there were significant changes in people's daily routines and habits, including the way they shopped for and prepared food. For example, some people may have started cooking at home more often due to stay-at-home orders or concerns about going out to eat, which could have led to an increase in Wikipedia pageviews for food-related topics as people sought information on cooking and recipe ideas. On the other hand, some people may have been less interested in food-related topics due to stress or other distractions related to the pandemic, which could have led to a decrease in Wikipedia pageviews.
+Prova6 During the pandemic, there were significant changes in people's daily routines and habits, including the way they shopped for and prepared food. For example, some people may have started cooking at home more often due to stay-at-home orders or concerns about going out to eat, which could have led to an increase in Wikipedia pageviews for food-related topics as people sought information on cooking and recipe ideas. On the other hand, some people may have been less interested in food-related topics due to stress or other distractions related to the pandemic, which could have led to a decrease in Wikipedia pageviews.
 
 It is also worth noting that Wikipedia pageviews can be influenced by a variety of factors beyond the pandemic, such as the availability of alternative sources of information, changes in search trends, and the overall popularity of a topic.
 
