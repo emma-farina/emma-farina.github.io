@@ -47,7 +47,7 @@ Bla bla about what we want to know and why we think Wikipedia and Google Trends 
 
 <h2 id="q1">Healthy food</h2>
 
-<p align="justify">Pie chart that shows which pages we are considering for the two categories.<br>
+	<p align="justify">Pie chart that shows which pages we are considering for the two categories.<br>
 Table showing for each language the food that displays the most impressive changes from pre covid to covid (to post?) + show interventions<br>
 Text analysing in detail the most interesting results.<br>
 Geographic interactive map or just geographic map with colors: calculate ratio healthy/ unhealthy for different stages (pre covid, lockdown, post covid, etc), t-test with interventions and cross-correlation with mobility data.<br>
@@ -56,13 +56,16 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 
 <h2 id="q2">Cultural interests</h2>
 		
-<p align="justify">In this section, we will investigate the interests shifts during COVID-19 in terms of cuisines from all around the world. When trying out new dishes, did individuals become more interested in their own history and traditions, or did they want to explore the cuisine of other cultures? To answer this question, we extracted the pageviews for the Wikipedia pages related to 24 different cuisines. You can have a first overview of the data by looking at the plot below, which shows the evolution of the number of clicks on each of the cuisines considered between 2018 and 2022. You can change the Wikipedia language you are interested in using the dropdown menu.</p>
+	<p align="justify">In this section, we will investigate the interests shifts during COVID-19 in terms of cuisines from all around the world. When trying out new dishes, did individuals become more interested in their own history and traditions, or did they want to explore the cuisine of other cultures? To answer this question, we extracted the pageviews for the Wikipedia pages related to 24 different cuisines. You can have a first overview of the data by looking at the plot below, which shows the evolution of the number of clicks on each of the cuisines considered between 2018 and 2022. You can change the Wikipedia language you are interested in using the dropdown menu.</p>
 		
-<iframe src="./plots/PageviewsCultures1.html" height=550 width=1200 align="center"></iframe>
+	<iframe src="./plots/PageviewsCultures1.html" height=550 width=1200></iframe>
+		
+	<p align="justify">Do you notice some re-occurring fluctuations or some interesting spikes? For instance, if you look at the Italian Wikipedia, German cuisine appears to gain popularity each winter, whereas Greek cuisine becomes more popular during the summer. In fact, traditional German cuisine is based on bread, potatoes and meat, especially pork, heavier foods that provide comfort and warmth during the cold months. On the other hand, the most famous Greek recipes include ingredients such as yogurt, cucumber and seafood, which are refreshing and more suitable for the summer. Thai cuisine has a recurrent spike in September, when Thai food festivals are held all around the world. </p>
+
 
 <h2 id="q3">Food delivery services</h2>
 
-		<p align="justify">Replicate analysis from publication.</p>
+	<p align="justify">Replicate analysis from publication.</p>
 
 <h2 id="conclusion">Conclusion</h2>
 
