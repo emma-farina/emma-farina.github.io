@@ -255,7 +255,7 @@ body {
 				</header>
 				<p>Did healthy food become more popular, in an effort to preserve one’s health, or did unhealthy food receive the most attention?</p>
 				<ul class="actions">
-					<li><a href="data_story.html" class="button">Learn more</a></li>
+					<li><a href="data_story.html/#q1" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
@@ -271,7 +271,7 @@ body {
 				</header>
 				<p>When trying out new dishes did individuals become more interested in their own history and traditions, or did they want to explore the cuisine of other cultures?</p>
 				<ul class="actions">
-					<li><a href="data_story.html" class="button">Learn more</a></li>
+					<li><a href="data_story.html/#q2" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
@@ -287,7 +287,7 @@ body {
 				</header>
 				<p>Did mobility restrictions during the pandemic influence the frequency of food delivery orders? Did delivery services permanently become part of most people's lives?</p>
 				<ul class="actions">
-					<li><a href="data_story.html" class="button">Learn more</a></li>
+					<li><a href="data_story.html/#q3" class="button">Learn more</a></li>
 				</ul>
 			</div>
 		</div>
