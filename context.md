@@ -10,6 +10,7 @@ nav-menu: true
 
 <!-- One -->
 <section id="one">
+	<section>
 	<div class="inner">
 		<header class="major">
 			<h1>Context</h1>
@@ -51,6 +52,7 @@ nav-menu: true
 		
 		
 <p>Let's first have a look at how different countries were affected by COVID-19, to get an idea of the timeline of the pandemic.</p>
+		</section>
 		
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
@@ -188,8 +190,8 @@ body {
 }
 </style>
 		
-	
-<body>
+<section id="timeline">
+	<section>
 <div class="timeline">
   <div class="container left" transition='opacity 1.5s ease'>
     <div class="content-timeline" transition='opacity 1.5s ease'>
@@ -236,7 +238,7 @@ body {
     </div>
   </div>
 </div>
-		</body>
+		</section>
 
 <p>                                                                                                                                                                        </p>
 <p>Using Wikipedia pageviews and Google Trends data from 2018 to 2022, we will investigate the evolution of food habits caused by the COVID-19 pandemic. With the assumption that we can use Wikipedia pageviews and Google Trends data to infer changes in food behavior [<a href="https://www.mdpi.com/2072-6643/13/11/3683/htm">5</a>], we aim at addressing the following questions.</p>
@@ -292,10 +294,10 @@ body {
 			</div>
 		</div>
 	</section>
-</section>
+<!--</section>-->
 		
 	
-<hr class="major" />
+<!--<hr class="major" />-->
 		
 
 <!-- Elements -->
