@@ -66,8 +66,13 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 		
 		<iframe src="./plots/DistributionPageviewsCulturesLog.html" height=550 width=1200></iframe>
 		
-		<p align="justify">Italian and Japanese cuisines are the most visited in Italian, Italian and German cuisines in German. Italian food, which appears to be the most popular across the world considering the English Wikipedia, often appears among the most searched, together with the food from the users' own country. Japanese cuisine is among the top cuisines for many languages as well. In some cases the cuisine of the corresponding country is followed by similar cuisines, in terms of ingredients and of geographical proximity. For example, the second most popular in Turkish is Greek cuisine, which inherits many dishes from Ottoman cuisine.<br>
-For the Italian version of Wikipedia the means of these distributions vary largely (around 4 orders of magnitude), and we can notice similar characteristics for many other languages. For this reason, we will standardize the data before continuing the analysis.</p>
+		<p align="justify">Italian food, which appears to be the most popular across the world considering the English Wikipedia, often appears among the most searched, together with the food from the users' own country. For instance German cuisine, followed by Italian cuisine, are the most visited in German. Japanese cuisine is among the top cuisines for many languages as well. In some cases the cuisine of the corresponding country is followed by similar ones, in terms of ingredients and geographical proximity. For example, the second most popular in Turkish is Greek cuisine, which inherits many dishes from Ottoman cuisine.</p>
+		
+		<p align="justify">For the Italian version of Wikipedia the means of these distributions vary largely (around 4 orders of magnitude), and we can notice similar characteristics for many other languages. For this reason, we will standardize the data before continuing the analysis. The world map below shows the relative popularity of each cuisine in the English language (considered as representative of users from all over the world) after standardizing and removing the seasonal component. The time bar below the heatmap allows you to scroll across dates and see the evolution of users' interest from 2018 to 2022.</p>
+		
+		<iframe src="./plots/WorldMap.html" height=550 width=1200></iframe>
+		
+		<p align="justify"></p>
 
 
 <h2 id="q3">Food delivery services</h2>
