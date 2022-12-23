@@ -53,6 +53,10 @@ Text analysing in detail the most interesting results.<br>
 Geographic interactive map or just geographic map with colors: calculate ratio healthy/ unhealthy for different stages (pre covid, lockdown, post covid, etc), t-test with interventions and cross-correlation with mobility data.<br>
 Barplots (one bar per language) with healthy and unhealthy bar on top of each other (one pre covid, one lockdown, one post covid).<br>
 	Text comparing results for countries with and without lockdown.</p>
+		
+	<iframe src="./plots/healthy_pie.html" height=550 width=1200></iframe>
+		
+	<iframe src="./plots/unhealthy_pie.html" height=550 width=1200></iframe>
 
 <h2 id="q2">Cultural interests</h2>
 		
