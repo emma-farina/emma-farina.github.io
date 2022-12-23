@@ -352,6 +352,62 @@ Now that we are getting ready for the end of the pandemic, it is natural to wond
 				</tr> 
 			</tbody> 
 		</table> 
+		
+		<h4>Did people order more food when they couldn't go to restaurants?</h4>
+		
+		<p align="justify">Now, we want to verify the hypothesis that the lockdown and all the mobility restrictions due to the pandemic might have affected people's interest in food delivery services. Therefore, we run a Spearman test between the mobility data related to retail and recreation and the Google searches for food delivery services.</p>
+		
+		<table class="alt" style="width: 50%; margin: 0 auto; text-align:center">
+                	<thead> 
+				<tr> 
+					<th style="text-align:center">Language</th> 
+					<th style="text-align:center">t-statistics</th> 
+					<th style="text-align:center">p-value</th> 
+				</tr> 
+			</thead> 
+			<tbody> 
+				<tr> 
+					<td>Italy (it)</td> 
+					<td> -0.776</td> 
+					<td> 1.82e-29</td> 
+				</tr> 
+				<tr>
+					<td> Great Britain (en)</td> 
+					<td>-0.605</td>
+					<td>2.31e-15</td> 
+				</tr> 
+				<tr> 
+					<td>Germany (de)</td> 
+					<td>-0.352</td> 
+					<td>1.95e-05</td> 
+				</tr> 
+				<tr> 
+					<td>Netherlands (nl)</td> 
+					<td>-0.283</td> 
+					<td>6.92e-04</td> 
+				</tr> 
+				<tr> 
+					<td>Serbia (sr)</td> 
+					<td>0.758</td>
+					<td>3.54e-27</td> 
+				</tr> 
+				<tr> 
+					<td>Turkey (tr)</td> 
+					<td>0.758</td>
+					<td>2.41e-27</td> 
+				</tr> 
+				<tr> 
+					<td>Spain (ca)</td> 
+					<td>-0.799</td> 
+					<td>2.86e-32</td>
+				</tr> 
+				<tr> 
+					<td>Finland (fi)</td> 
+					<td>-0.043</td> 
+					<td>0.617</td> 
+				</tr> 
+			</tbody> 
+		</table> 
  
 
 <h2 id="conclusion">Conclusion</h2>
