@@ -29,13 +29,6 @@ nav-menu: true
 		
 
 <h2 id="q1">Healthy food</h2>
-
-	<p align="justify">Pie chart that shows which pages we are considering for the two categories.<br>
-Table showing for each language the food that displays the most impressive changes from pre covid to covid (to post?) + show interventions<br>
-Text analysing in detail the most interesting results.<br>
-Geographic interactive map or just geographic map with colors: calculate ratio healthy/ unhealthy for different stages (pre covid, lockdown, post covid, etc), t-test with interventions and cross-correlation with mobility data.<br>
-Barplots (one bar per language) with healthy and unhealthy bar on top of each other (one pre covid, one lockdown, one post covid).<br>
-	Text comparing results for countries with and without lockdown.</p>
 		
 	<p align="justify">In this first section, we ask ourselves whether individuals became more interested in healthy or unhealthy food during the pandemic. Did more time spent at home facilitate unhealthy food habits, or did it on the contrary encourage people to explore healthier diets? This aspect may be highly dependent on one’s country and culture, which makes the Wikipedia dataset an interesting resource to investigate country differences in food behavior during times of crisis.</p>
 	
