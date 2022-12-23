@@ -203,6 +203,8 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 			</tr>
 		</tbody>
 	</table>
+		
+	<p align="justify"><br>We have significant causal relationship for German, Catalan and English, for which people's interest follows mobility restrictions by two weeks, and for Serbian, for which the time lag is only one week. Overall, we can say an increased curiosity towards foreign cuisines is observed after a period of around two weeks after strict mobility measures are in place. As compared to the results for the other research questions, ...</p>
 	
 
 <h2 id="q3">Food delivery services</h2>
@@ -216,5 +218,10 @@ Now that we are getting ready for the end of the pandemic, it is natural to wond
 <h2 id="conclusion">Conclusion</h2>
 
 <p align="justify">Conclusion on how did Covid 19 pandemic impact food preferences: more or less healthy, more or less exploring, more or less food ordering.</p>
+		
+<h2 id="conclusion">Outlook</h2>
+
+<p align="justify">Our ideas for future work.</p>
+		
 		
 		
