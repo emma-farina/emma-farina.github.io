@@ -268,7 +268,7 @@ body {
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Cultural interests</h3>
+					<h3>World cuisines</h3>
 				</header>
 				<p align="justify">When trying out new dishes, did individuals become more interested in their own history and traditions, or did they want to explore the cuisine of other cultures?</p>
 				<ul class="actions">
