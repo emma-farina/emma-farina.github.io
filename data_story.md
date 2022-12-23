@@ -80,7 +80,7 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 		
 		<iframe src="./plots/WorldMap1.html" height=550 width=1200></iframe>
 		
-		<p align="justify">As we mentioned before, some cuisines show seasonal trends that are repeated every year. We want to capture the underlying information about interest shifts due to the pandemic, regardless of the season, so we decomposed the time series in seasonal component, trend and residuals, as shown in the plot below. PROVA 6</p>
+		<p align="justify">As we mentioned before, some cuisines show seasonal trends that are repeated every year. We want to capture the underlying information about interest shifts due to the pandemic, regardless of the season, so we decomposed the time series in seasonal component, trend and residuals, as shown in the plot below.</p>
 				
 		<iframe src="./plots/seasonal_trends.jpeg" width=600 height=400 style="margin: 0 auto; text-align:center"></iframe>
 		
@@ -141,6 +141,13 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 			</tr>
 		</tbody>
 	</table>
+		
+	<p align="justify">Interestingly, a significant change was found in the Dutch Wikipedia and especially in the English Wikipedia, so there is an interest shift of the whole world population. Since the t-statistics is negative, meaning that the ratio decreased, this shows that people tended to search more dishes related to foreign cuisines, rather than their own traditional food.</p>
+		
+	<h4>Was the interest shift related to mobility restrictions?</h4>
+		
+	<p align="justify">Now that we have noticed a change for some countries, to address our research question we want to check whether different degrees of mobility restrictions have an effect on the interest in other cuisines. To do this, we use the mobility data starting from the first mobility restriction decided in the corresponding country. Explore the trends in pageviews and the associated mobility data in the graph below, selecting the language using the dropdown menu. Do you notice any possible effect related to how strictly people were forced to stay at home? The vertical lines represent the beginning of lockdown (or of the hardest mobility restrictions for the countries that didn't have lockdown), the end of the first period of restrictions, and the end of the second period of restrictions.</p>
+
 
 
 <h2 id="q3">Food delivery services</h2>
