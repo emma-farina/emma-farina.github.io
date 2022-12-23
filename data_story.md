@@ -425,6 +425,7 @@ Now that we are getting ready for the end of the pandemic, it is natural to wond
 		Below we show the matrix summarizing the results of the Granger causality test, therefore showing the p-values for each test and the corresponding week lag.</p>
 		
 		<iframe src="./plots/p-values Granger causality.html" height=550 width=1200></iframe>
+	<p> </p>
 		<iframe src="./plots/week lag Granger causality.html" height=550 width=1200></iframe>
 	
 		<p align="justify"><br>Considering the whole pandemic period, the restrictions on Italy, Great Britain, Germany, and Spain significantly influence the interest in food delivery at a 1-week lag. Interestingly, Germany maintains this condition in the first and second periods of the pandemic but not in the last one. Spain and Great Britain also maintain the significant influence of the restrictions, although not during the 'Second waves' period. On the other hand, Italy's mobility restrictions have considerably impacted food delivery only in the last period. Good results are also obtained for the Netherlands, demonstrating significant causality in the last two pandemic periods. Finland shows a causality relation only in the second period, while Serbia and Turkey still behave differently from the other countries, showing insignificant results in each period under study. Interestingly but not surprisingly, most of the significant results were obtained after a week of lag between mobility and food delivery interest, demonstrating the short influence range between restrictions and people's responses to eating behaviors.</p> 
@@ -472,6 +473,45 @@ Now that we are getting ready for the end of the pandemic, it is natural to wond
 	</table> 
 	
 	<p align="justify"><br>Considering the good results of the serial correlation, we can proceed with the forecast. Below, you can find the forecasting results compared to the four observations left as a test set.</p>
+	
+	<p align="justify">To quantify the performances of our model, we computed the mean percentage error and the Pearson product-moment correlation coefficients for each forecasting, which measure the strength and direction of association between two variables. The results are shown below. Generally, the general trend of interest is correctly predicted.</p>
+	
+	<table class="alt" style="width: 50%; margin: 0 auto; text-align:center">
+		<thead> 
+			<tr> 
+				<th style="text-align:center">Language</th>
+				<th style="text-align:center">MPE</th> 
+				<th style="text-align:center">CORR</th> 
+			</tr> 
+		</thead> 
+		<tbody> 
+			<tr> 
+				<td>Italy (it)</td>
+				<td> -0.0063</td> 
+				<td> 0.986</td> 
+			</tr> 
+			<tr> 
+				<td> Great Britain (en)</td>
+				<td>-0.3003</td> 
+				<td>0.5406</td>
+			</tr> 
+			<tr> 
+				<td>Spain (ca)</td> 
+				<td>-0.0481</td> 
+				<td>0.9201</td> 
+			</tr> 
+			<tr> 
+				<td>Netherlands (nl)</td> 
+				<td>-0.4248</td> 
+				<td>-0.9385</td> 
+			</tr> 
+			<tr> 
+				<td>Germany (de)</td>
+				<td>-0.388</td> 
+				<td>0.8046</td> 
+			</tr> 
+		</tbody> 
+	</table> 
  
 
 <h2 id="conclusion">Conclusion</h2>
