@@ -407,7 +407,11 @@ Now that we are getting ready for the end of the pandemic, it is natural to wond
 					<td>0.617</td> 
 				</tr> 
 			</tbody> 
-		</table> 
+		</table>
+		
+		<p align="justify"><br>The correlation with mobility data appears significant for all countries except for Finland. Furthermore, as previously visualized through the plots, Serbia and Turkey are the only countries with a positive correlation coefficient. This singular behavior is counterintuitive and deserves further exploration.</p>
+		<p align="justify">One factor to consider is Turkey's economy relies on its migrant workforce while benefiting greatly from remittances and the strong ties between expatriate Turks and families back home. The Coronavirus measures at home and abroad have significantly upset this balance, thus strongly impacting the Turkish economy. In general, workers' incomes have decreased, working hours have changed, and their financial difficulties have worsened, significantly affecting their livelihoods. This could be one of the reasons why food delivery companies have recorded a sharp decrease in interest during the initial "Covid shock period".</p>
+		<p align="justify">As far as Serbia is concerned, it should be considered that in the pre-pandemic period, searches were close to zero, underlining the scarce diffusion of food delivery services in the country. For this reason, it may be that the restrictions have acted as a vehicle for its spread. Still, unlike in other countries, it has taken a while for people to become aware of this possibility's existence. This could explain the significant peak in the third covid wave and the growing trend.</p>
  
 
 <h2 id="conclusion">Conclusion</h2>
