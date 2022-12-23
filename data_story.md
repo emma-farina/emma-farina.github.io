@@ -97,6 +97,17 @@ nav-menu: true
 		<iframe src="./plots/spearman_59_Second_Normalcy.jpeg" height=300 width=1200></iframe>
 		
 		<p align="justify">You must be as surprised as we were when we found this result: the correlation between interest and mobility seemed to be the opposite for Italy compared to the first normalcy. Perhaps, as it was the second normalcy, the relationship between the newly returned freedom and the food preferences was affected by different factors.</p>
+		
+		<h4>To summarize, did the lockdown encourage a healthier lifestyle?</h4>
+		
+		<p align="justify">In this study, we did not investigate causality between the lockdown severity and the food interest, only correlations. However, we can say that overall, the interest seems to shift to healthy food rather than unhealthy food as the time spent at home increases. This is especially striking for Italy, where an increase in the mobility restrictions was consistently associated with an increased relative interest in healthy food. 
+
+This analysis revealed very interesting cultural differences on food behavior. For instance, Spain and Italy are often considered to have closely related cultures. Yet in this study, we found that the relation between healthy food interest and mobility restriction is the opposite for these two countries. 
+
+Furthermore, the interest in Spain for healthy food seems to beat the one for unhealthy food as the ratio is over 1, unlike in Italy. We notice that in Spain and Italy, the relative interest for the preferred type of food decreases during the most severe periods of lockdown. This suggests that, at least in these countries, these periods disturb people's food consumption habits instead of reinforcing their existing ones.
+
+These results could be investigated in further studies, to find the factors that can influence differently food preferences in periods of great changes. We continue to research the cultural aspects of food interest during the pandemic with the next question.</p>
+
 
 
 <h2 id="q2">World cuisines</h2>
@@ -311,6 +322,10 @@ nav-menu: true
 	<iframe src="./plots/Cuisine_similarity.jpeg" height=500 width=600></iframe>
 		
 	<p align="justify">It would be interesting to use this discrimination to further analyze interest shifts, as people might associate the tastes they are used to to comfort, and turn towards them in difficult times.
+		
+		<h4>Conclusion</h4>
+	
+	<p align="justify">In conclusion, our investigation into the impact of COVID-19 on cultural interests, specifically in terms of cuisine, revealed that there was a significant shift in interest towards traditional and local cuisines for some Wikipedia languages, such as Dutch and English. This shift was observed through the analysis of pageview ratios for different cuisines on Wikipedia, and was found to be correlated with the severity of mobility restrictions in some cases, as determined by Spearman correlation and Granger causality tests. Interestingly the results showed that these shifts happen on a small timescale of 1-2 weeks. Overall, our findings suggest that the COVID-19 pandemic has influenced people's cultural interests, with a tendency towards more traditional and local cuisines in some cases, potentially due to the combination of increased time at home and a desire for familiarity and comfort during difficult times.</p>
 
 <h2 id="q3">Food delivery services</h2>
 
@@ -553,14 +568,9 @@ Now that we are getting ready for the end of the pandemic, it is natural to wond
 		</tbody> 
 	</table> 
  
-
-<h2 id="conclusion">Conclusion</h2>
-
-<p align="justify">Conclusion on how did Covid 19 pandemic impact food preferences: more or less healthy, more or less exploring, more or less food ordering.</p>
-		
-<h2 id="conclusion">Outlook</h2>
-
-<p align="justify">Our ideas for future work.</p>
+	<h4>Conclusion</h4>
+	
+	<p align="justify"><br>As far as we have noticed, except for Serbia, it is generally possible to point out a correlation and a 'causality' of the mobility data on food delivery. Indeed, in the third period, with a loosening of restrictions on mobility, there was a general reduction in interest in food delivery. In any case, it should be emphasized that even if there is a slightly negative trend, the average interest rate is still far higher than the pre-covid period. Therefore, we can conclude that mobility data is generally a good key to predicting interest in food delivery. In any case, we must admit the presence of different drivers with respect to health regulations and closures, which could continue to favor the affirmation of food delivery compared to the previous period. These can be the convenience of ordering from home and waiting for food while sitting on the sofa, or the presence of continuous and convenient offers in food delivery services that encourage people, once discovered, to make purchases on that application.</p>
 		
 		
 		
