@@ -474,12 +474,14 @@ Now that we are getting ready for the end of the pandemic, it is natural to wond
 	
 	<p align="justify"><br>Considering the good results of the serial correlation, we can proceed with the forecast. Below, you can find the forecasting results compared to the four observations left as a test set.</p>
 	
+	<iframe src="./plots/Food delivery Forecasting.html" height=550 width=1200></iframe>
+	
 	<p align="justify">To quantify the performances of our model, we computed the mean percentage error and the Pearson product-moment correlation coefficients for each forecasting, which measure the strength and direction of association between two variables. The results are shown below. Generally, the general trend of interest is correctly predicted.</p>
 	
 	<table class="alt" style="width: 50%; margin: 0 auto; text-align:center">
 		<thead> 
 			<tr> 
-				<th style="text-align:center">Language</th>
+				<th style="text-align:center">Country</th>
 				<th style="text-align:center">MPE</th> 
 				<th style="text-align:center">CORR</th> 
 			</tr> 
