@@ -146,13 +146,60 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 		
 	<h4>Was the interest shift related to mobility restrictions?</h4>
 		
-	<p align="justify">Now that we have noticed a change for some countries, to address our research question we want to check whether different degrees of mobility restrictions have an effect on the interest in other cuisines. To do this, we use the mobility data starting from the first mobility restriction decided in the corresponding country. Explore the trends in pageviews and the associated mobility data in the graph below, selecting the language using the dropdown menu. You can change the timescale using the buttons at the top and the cursor at the bottom. Do you notice any possible effect related to how strictly people were forced to stay at home? The vertical lines represent the beginning of lockdown (or of the hardest mobility restrictions for the countries that didn't have lockdown), the end of the first period of restrictions, and the end of the second period of restrictions.</p>
+	<p align="justify">Now that we have noticed a change for some countries, to address our research question we want to check whether different degrees of mobility restrictions have an effect on the interest in other cuisines. To do this, we use the mobility data starting from the first mobility restriction decided in the corresponding country. In particular, we take into account the mobility within residential areas, which will be higher when people are forced to stay at home. Explore the trends in pageviews and the associated mobility data in the graph below, selecting the language using the dropdown menu. You can change the timescale using the buttons at the top and the cursor at the bottom. Do you notice any possible effect related to how strictly people were forced to stay at home? The vertical lines represent the beginning of lockdown (or of the hardest mobility restrictions for the countries that didn't have lockdown), the end of the first period of restrictions, and the end of the second period of restrictions.</p>
 
 	<iframe src="./plots/Ratio&Mobility.html" height=550 width=1200></iframe>
 		
 	<p align="justify">If you look at the German Wikipedia, there is a noticeable spike in the pageviews ratio just a few weeks after the beginning of lockdown, and another increase around the beginning of 2021, matching the second round of mobility restrictions. A similar trend can be observed for English, whereas other languages such as Turkish and Catalan don't seem to show any particular matching pattern. We calculated the Spearman correlation to check if there is a significant relationship between pageviews ratio and mobility data for any of the languages. The results are collected in the table below, confirming what we just observed for German and showing a barely significant correlation for Finnish, too.</p>
 		
-	<p align="justify">Since people's interest shift towards other cultures might respond to the mobility restrictions with a delay, we want to know what time lag yields the highest correlation between our ratio and the mobility data. We use a Granger causality test to determine whether the mobility time series precedes the pageviews variations with a time lag of a certain amount of weeks. We therefore assume that there are no latent confounding effects and look for a linear causal relationship between the two time series. The results are presented in the table below.</p>
+	<table class="alt" style="width: 50%; margin: 0 auto; text-align:center">
+		<thead>
+			<tr>
+				<th style="text-align:center">Language</th>
+				<th style="text-align:center">Spearman's correlation</th>
+				<th style="text-align:center">p-value</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Italian (it)</td>
+				<td>0.006</td>
+				<td>0.948</td>
+			</tr>
+			<tr>
+				<td>German (de)</td>
+				<td>0.569</td>
+				<td>2.69e-13</td>
+			</tr>
+			<tr>
+				<td>Dutch (nl)</td>
+				<td>-0.017</td>
+				<td>0.838</td>
+			</tr>
+			<tr>
+				<td>Turkish (tr)</td>
+				<td>-0.051</td>
+				<td>0.555</td>
+			</tr>
+			<tr>
+				<td>Catalan (ca)</td>
+				<td>0.003</td>
+				<td>0.969</td>
+			</tr>
+			<tr>
+				<td>Finnish (fi)</td>
+				<td>0.169</td>
+				<td>0.047</td>
+			</tr>
+			<tr>
+				<td>English (en)</td>
+				<td>0.058</td>
+				<td>0.497</td>
+			</tr>
+		</tbody>
+	</table>
+		
+	<p align="justify"><br>Since people's interest shift towards other cultures might respond to the mobility restrictions with a delay, we want to know what time lag yields the highest correlation between our ratio and the mobility data. We use a Granger causality test to determine whether the mobility time series precedes the pageviews variations with a time lag of a certain amount of weeks. We therefore assume that there are no latent confounding effects and look for a linear causal relationship between the two time series. The results are presented in the table below.</p>
 		
 	<table class="alt" style="width: 50%; margin: 0 auto; text-align:center">
 		<thead>
