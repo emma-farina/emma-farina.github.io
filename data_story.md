@@ -211,7 +211,14 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 		</tbody>
 	</table>
 		
-	<p align="justify"><br>Since people's interest shift towards other cultures might respond to the mobility restrictions with a delay, we want to know what time lag yields the highest correlation between our ratio and the mobility data. We use a Granger causality test to determine whether the mobility time series precedes the pageviews variations with a time lag of a certain amount of weeks. We therefore assume that there are no latent confounding effects and look for a linear causal relationship between the two time series. The results are presented in the table below.</p>
+	<p align="justify"><br>Since people's interest shift towards other cultures might respond to the mobility restrictions with a delay, we want to know what time lag yields the highest correlation between our ratio and the mobility data. We use a Granger causality test to determine whether the mobility time series precedes the pageviews variations with a time lag of a certain amount of weeks. According to Granger causality, if a series X "Granger-causes" a series Y, then past values of X should contain information that helps predict Y. A prerequisite for performing the Granger causality test is that the time series have to be stationary. For this purpose, we look at the p-value of the Augmented Dickey-Fuller test and differentiate the time series in the case of non-stationarity.</p>
+		<p align="justify">Considering the long pandemic period and the different COVID-19 waves of various entities, we imagine a possible difference in people's responses in the long run. For this reason, we divide the pandemic period into three sub-time intervals:
+	<ul>
+  		<li>An initial period, also called the 'COVID-19 Shock Period', which corresponds to the onset of COVID-19, and extends up to the end of the first hardest mobility restrictions;</li>
+  		<li>A second period, also called 'Second waves', that starts from the end of the first hardest mobility restrictions, includes the return of the covid and extends until the new return to normal in the autumn of 2021;</li>
+  		<li>A third period that extends until November 1, 2022.</li>
+	</ul>
+	The results are presented in the table below.</p>
 		
 	<table class="alt" style="width: 50%; margin: 0 auto; text-align:center">
 		<thead>
@@ -415,14 +422,7 @@ Now that we are getting ready for the end of the pandemic, it is natural to wond
 		
 		<h4>Can we say the mobility restrictions caused the rise of food delivery services?</h4>
 		
-		<p align="justify">Considering the significant difference in people's interest in food delivery and the observed correlation with mobility restrictions, it seems appropriate to verify the latter's causality in influencing people's preferences. For this purpose, we will run a test of Granger's causality. According to Granger causality, if a series X "Granger-causes" a series Y, then past values of X should contain information that helps predict Y. A prerequisite for performing the Granger causality test is that the time series have to be stationary. For this purpose, we look at the p-value of the Augmented Dickey-Fuller test and differentiate the time series in the case of non-stationarity.</p>
-		<p align="justify">Considering the long pandemic period and the different COVID-19 waves of various entities, we imagine a possible difference in people's responses in the long run. For this reason, we divide the pandemic period into three sub-time intervals:
-	<ul>
-  		<li>An initial period, also called the 'COVID-19 Shock Period', which corresponds to the onset of COVID-19, and extends up to the end of the first hardest mobility restrictions;</li>
-  		<li>A second period, also called 'Second waves', that starts from the end of the first hardest mobility restrictions, includes the return of the covid and extends until the new return to normal in the autumn of 2021;</li>
-  		<li>A third period that extends until November 1, 2022.</li>
-	</ul>
-		Below we show the matrix summarizing the results of the Granger causality test, therefore showing the p-values for each test and the corresponding week lag.</p>
+		<p align="justify">Considering the significant difference in people's interest in food delivery and the observed correlation with mobility restrictions, it seems appropriate to verify the latter's causality in influencing people's preferences. For this purpose, we will run a test of Granger's causality. Below we show the matrix summarizing the results of the Granger causality test, therefore showing the p-values for each test and the corresponding week lag.</p>
 		
 		<iframe src="./plots/p-values Granger causality.html" height=550 width=1200></iframe>
 	<p> </p>
