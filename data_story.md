@@ -88,9 +88,9 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 		
 		<h4>What kinds of food did people try out during the pandemic?</h4>
 		
-		<p align="justify">To address our main question regarding cultural interests, we calculate for each Wikipedia language the ratio between the pageviews for the corresponding cuisine and the sum of the pageviews for all others. You can see these ratios here (insert anchor link), together with the mobility data. We performed a t-test to see whether there were interest shifts, based on this ratio, between pre-COVID and COVID periods. The results are shown in the following table. Changed table style</p>
+		<p align="justify">To address our main question regarding cultural interests, we calculate for each Wikipedia language the ratio between the pageviews for the corresponding cuisine and the sum of the pageviews for all others. You can see these ratios here (insert anchor link), together with the mobility data. We performed a t-test to see whether there were interest shifts, based on this ratio, between pre-COVID and COVID periods. The results are shown in the following table. Changed table style again</p>
 		
-	<table class="alt" style="width: 50%; align-self: center;">
+	<table class="alt" style="width: 50%; margin: 0 auto; border:1px solid;text-align:center">
 		<thead>
 			<tr>
 				<th>Language</th>
