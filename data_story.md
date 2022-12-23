@@ -25,28 +25,8 @@ nav-menu: true
   		<li>When trying out new dishes, did individuals become more interested in their own history and traditions, or did they want to explore the cuisine of other cultures?</li>
   		<li>Did mobility restrictions during the pandemic influence the frequency of food delivery orders? Did delivery services permanently become part of most people's lives?</li>
 	</ol> 
-<p align="justify">We will extract Wikipedia categories of foods we are interested in, namely healthy and unhealthy food and typical dishes from different cultures, and analyse their changes in popularity throughout the last 5 years and particularly comparing the period before and during the pandemic. For analysing the rise of food delivery services, instead, we deemed Google Trends a more suitable data source [<a href="https://towardsdatascience.com/the-impact-of-covid-19-on-food-delivery-services-in-the-u-s-47eae04655c8">6</a>], as customers directly search the names of these companies on Google when they want to order something.</p>
-
-
-<h2>Datasets</h2>
-<dl>
-	<dt>Wikipedia</dt>
-	<dd>
-		<p align="justify">Description of the pages we are selecting (categories) and languages. Description of how we are querying them?</p>
-	</dd>
-	<dt>Google Trends</dt>
-	<dd>
-		<p align="justify">Description of the pages we are selecting and how it works, which information we get.</p>
-	</dd>
-	<dt>Interventions data</dt>
-	<dd>
-		<p align="justify">Description of what information they provide and for which countries.</p>
-	</dd>
-	<dt>Mobility data</dt>
-	<dd>
-		<p align="justify">Description of data structure.</p>
-	</dd>
-</dl>
+<p align="justify">We will extract Wikipedia categories of foods we are interested in, namely healthy and unhealthy food and typical dishes from different cultures, and analyse their changes in popularity throughout the last 5 years and particularly comparing the period before and during the pandemic. For analysing the rise of food delivery services, instead, we deemed Google Trends a more suitable data source, as customers directly search the names of these companies on Google when they want to order something.</p>
+		
 
 <h2 id="q1">Healthy food</h2>
 
@@ -57,9 +37,41 @@ Geographic interactive map or just geographic map with colors: calculate ratio h
 Barplots (one bar per language) with healthy and unhealthy bar on top of each other (one pre covid, one lockdown, one post covid).<br>
 	Text comparing results for countries with and without lockdown.</p>
 		
+	<p align="justify">In this first section, we ask ourselves whether individuals became more interested in healthy or unhealthy food during the pandemic. Did more time spent at home facilitate unhealthy food habits, or did it on the contrary encourage people to explore healthier diets? This aspect may be highly dependent on one’s country and culture, which makes the Wikipedia dataset an interesting resource to investigate country differences in food behavior during times of crisis.</p>
+	
+	<h4>Data exploration</h4>
+		
+	<p align="justify">To answer our question, we defined two lists of Wikipedia categories, one related to healthy food and one related to unhealthy foods. We then extracted the view counts of the pages contained in these categories. You can visualize below the categories we selected. Hover your mouse over each category to see the number of pages they contain on the English Wikipedia. For the other languages, we translated the pages contained in the English categories and collected their view counts.</p>
+		
 	<iframe src="./plots/healthy_pie.html" height=550 width=1200></iframe>
 		
 	<iframe src="./plots/unhealthy_pie.html" height=550 width=1200></iframe>
+		
+	<h4>Preprocessing</h4>
+		
+	<p align="justify">We removed the outliers as we want to avoid keeping a very sudden and very high increase in the page view count. We indeed interpret this as the result of some short trend, a recipe going viral, or a similar phenomenon. This timescale is too short for such a strong change and it could bias our data as it does not reflect the evolution of the interest and behavior of a large group of people over time.</p>
+	<p align="justify">We then perform a z-score standardization on the weekly pageviews of each of our Wikipedia categories using the pageviews of that same category during the corresponding month of 2019: we subtract from our weekly view counts the mean view counts of the same month of 2019 and divide them with the standard deviation of the 2019 pageviews during that month.</p>
+	
+	<h4>Interest "surplus" during the pandemic</h4>
+		
+	<p align="justify">We thus consider 2019 as a reference for food interest, free from the influence of covid. With the standardization, we obtain the 'surplus' (positive values) or 'deficit' (negative values) of interest during the pandemic, compared to 2019. This is inspired by another study on food habits during Covid [<a href="https://www.nature.com/articles/s41467-022-28498-z">2</a>].</p>
+	<p align="justify">Let us visualize what the sum of the standardized pageviews of each category looks like for each country, first for the healthy categories. We also represent data on the mobility restrictions: the percent change of the time spent at home from baseline. This data will be used again throughout our analysis, as an indication of the severity of the lockdown.</p>
+		
+		<iframe src="./plots/Standardized_healthy_pageviews_mob.html" height=550 width=1200></iframe>
+		
+	<p align="justify">Do you agree that the interest shifts in response to mobility restrictions already look quite different between languages?</p>
+	<p align="justify">For some countries such as Italy and Serbia, the increase in the percent of time spent at home in March 2020 led to an increase in the interest surplus for healthy food. For Italy, during the period from July 2021 to October 2022, when the residential time was close to normality, the interest for healthy food was mostly in deficit compared to the same months of 2019. This seems to indicate that for Italian people, staying home was associated with paying more attention to the quality of one's diet.</p>
+	<p align="justify">For the English data on the other hand, the interest for healthy food seemed more in excess when people spent less time at home. Perhaps having access to more shops and restaurants to find fresh produce is more important for the English-speaking world to maintain a healthy diet.</p>
+	<p align="justify">As for Serbia, the interest for healthy food was quite similar to 2019, except for the duration of the first lockdown (from March 16 to May 17, 2020) where it experienced an impressive growth. It appears that the confinement inspired Serbians to improve their health.</p>
+	<p align="justify">Finally, for Turkey and the English-speaking internet users, the interest for healthy food is currently in great excess compared to 2019. This result could be useful to advertisers, and may or may not be related to the greater freedom of traveling relative to the previous times. Perhaps you also recently grew a passion for cooking and recognize yourself in this data.</p>
+		
+		<p align="justify">Then, we produce the same visualization for the unhealthy categories. </p>
+		
+		<iframe src="./plots/Standardized_unhealthy_pageviews_mob.html" height=550 width=1200></iframe>
+		
+		<p align="justify">What do you notice about Italy? The interest for unhealthy food categories in Italy was in even greater excess than the interest for healthy food during the first lockdown. Therefore, Italian people in lockdown were perhaps just globally more interested in food in general than during previous times. </p>
+		<p align="justify">For Spain and Finland, we can see a clear increase in the interest for unhealthy food following the beginning of the first lockdown. Finally, in Turkey, this interest seems always in great excess during the whole covid period. This could be related to the pandemic (the boredom of staying at home, the discovery of new foods on social media, a heavy usage of delivery apps...), but also to other factors such as the implantation of new fast food chains, new culinary trends in the country…</p>
+
 
 <h2 id="q2">Cultural interests</h2>
 		
