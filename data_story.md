@@ -82,9 +82,59 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 		
 		<p align="justify">As we mentioned before, some cuisines show seasonal trends that are repeated every year. We want to capture the underlying information about interest shifts due to the pandemic, regardless of the season, so we decomposed the time series in seasonal component, trend and residuals, as shown in the plot below.</p>
 		
-		<center><iframe src="./plots/seasonal_trends.jpeg" height=400 width=1200></iframe></center>
+		<iframe align="center" src="./plots/seasonal_trends.jpeg" height=400 width=1200></iframe>
 		
 		<p align="justify"><br>Since we are interested in variations from regular fluctuations that could be related to COVID-19, we decided to filter out the seasonal component. We do this for all the cuisines that show some relevant periodic fluctuations, whereas for the few cuisines that seem more constant we skip this step in order to avoid losing information. The remaining components are the trend and the residuals. The residuals represent the deviation of the data with respect to the model composed of trend and seasonal component, so they are very fluctuating and sometimes present huge spikes. In this context, where we are looking for an underlying behavior that is on a longer timescale compared to weekly variations, considering only the residuals might lead us to overinterpret this information. The trend would be more suitable to analyze changes in habits that can take a few weeks to occur, but we might discard relevant information by smoothening the signal so much. For instance, the interest for Greek cuisine in 2020 actually dropped way more than the trends shows. Furthermore, we use the mobility data to analyze the correlation between mobility restrictions and interest in different kinds of food, and the restrictions during the pandemic sometimes had abrupt changes. For these reasons, for the following analysis we will consider the sum of trend and residuals, only filtering out the seasonal component.</p>
+		
+		<h4>What kinds of food did people try out during the pandemic?</h4>
+		
+		<p align="justify">To address our main question regarding cultural interests, we calculate for each Wikipedia language the ratio between the pageviews for the corresponding cuisine and the sum of the pageviews for all others. You can see these ratios here (insert anchor link), together with the mobility data. We performed a t-test to see whether there were interest shifts, based on this ratio, between pre-COVID and COVID periods. The results are shown in the following table.</p>
+		
+<div class="table-wrapper">
+	<table class="alt">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Description</th>
+				<th>Price</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Item1</td>
+				<td>Ante turpis integer aliquet porttitor.</td>
+				<td>29.99</td>
+			</tr>
+			<tr>
+				<td>Item2</td>
+				<td>Vis ac commodo adipiscing arcu aliquet.</td>
+				<td>19.99</td>
+			</tr>
+			<tr>
+				<td>Item3</td>
+				<td> Morbi faucibus arcu accumsan lorem.</td>
+				<td>29.99</td>
+			</tr>
+			<tr>
+				<td>Item4</td>
+				<td>Vitae integer tempus condimentum.</td>
+				<td>19.99</td>
+			</tr>
+			<tr>
+				<td>Item5</td>
+				<td>Ante turpis integer aliquet porttitor.</td>
+				<td>29.99</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="2"></td>
+				<td>100.00</td>
+			</tr>
+		</tfoot>
+	</table>
+</div>
+
 
 <h2 id="q3">Food delivery services</h2>
 
