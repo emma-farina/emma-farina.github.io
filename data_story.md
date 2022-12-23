@@ -150,7 +150,7 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 
 	<iframe src="./plots/Ratio&Mobility.html" height=550 width=1200></iframe>
 		
-	<p><br>Since people's interest shift towards other cultures might respond to the mobility restrictions with a delay, we want to know what time lag yields the highest correlation between our ratio and the mobility data. We use a Granger causality test to determine whether the mobility time series precedes the pageviews variations with a time lag of a certain amount of weeks. We therefore assume that there are no latent confounding effects and look for a linear causal relationship between the two time series. The results are presented in the table below.</p>
+	<p align="justify">Since people's interest shift towards other cultures might respond to the mobility restrictions with a delay, we want to know what time lag yields the highest correlation between our ratio and the mobility data. We use a Granger causality test to determine whether the mobility time series precedes the pageviews variations with a time lag of a certain amount of weeks. We therefore assume that there are no latent confounding effects and look for a linear causal relationship between the two time series. The results are presented in the table below.</p>
 		
 	<table class="alt" style="width: 50%; margin: 0 auto; text-align:center">
 		<thead>
