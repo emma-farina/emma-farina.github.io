@@ -71,9 +71,42 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 		
 		<p align="justify">What do you notice about Italy? The interest for unhealthy food categories in Italy was in even greater excess than the interest for healthy food during the first lockdown. Therefore, Italian people in lockdown were perhaps just globally more interested in food in general than during previous times. </p>
 		<p align="justify">For Spain and Finland, we can see a clear increase in the interest for unhealthy food following the beginning of the first lockdown. Finally, in Turkey, this interest seems always in great excess during the whole covid period. This could be related to the pandemic (the boredom of staying at home, the discovery of new foods on social media, a heavy usage of delivery apps...), but also to other factors such as the implantation of new fast food chains, new culinary trends in the country…</p>
+		
+		<h4>Relative interest shifts between healthy and unhealthy foods</h4>
+		
+		<p align="justify">Now, we build a new metric to compare healthy and unhealthy food interest for the rest of our analysis: we calculate the weekly ratio of the sum of healthy/unhealthy pageviews using the non-standardized data. We visualize this ratio, along with the mobility data.</p>
+		
+		<iframe src="./plots/healthy_over_unhealthy_pageviews_mob.html" height=550 width=1200></iframe>
+		
+		<p align="justify">First, pay attention to the range of the ratio for each country. The ratio of healthy/unhealthy pageviews remained below 1 during the entire duration of data collection for Italy, the English-speaking Wikipedia users, German-speaking users, and the Netherlands. For Turkey and Finland, the ratio fluctuated around 1. Finally, for Serbia and Spain, this ratio reached values higher than 2. It might be more meaningful to study the fluctuations of the ratio one language at a time, to rule out the effect of different numbers of pages available. Yet the availability of more pages is also an indicator of interest. It therefore seems that the interest for healthy food takes over that of unhealthy food in Serbia and Spain. On the other hand, in countries speaking Italian, English, German and Dutch, the interest for unhealthy food seemed to take over.</p>
+		<p align="justify">When looking at the fluctuations for single language communities, the interest for healthy food seemed to take over the one for unhealthy food in periods when people spent less time at home. Meanwhile, for the Netherlands, Italy and Turkey, the ratio increased during the first lockdown, indicating a relative increase in the curiosity for healthy food.</p>
+		<p align="justify">We compared the ratio of healthy/unhealthy food pageviews around 60 days before and after the first mobility restriction in 2020, for each language community, with a t-test. The ratio is significantly different before and after the mobility restriction for all languages except for Catalan. This confirms our previous conclusion that, in Spain, an increase of the ratio seemed more driven by time spent outside after a period of lockdown.</p>
+		
+		<h4>Correlation between the relative interest and the lockdown severity</h4>
+		
+		<p align="justify">We then asked ourselves if there was a monotonic correlation between the ratio of healthy/unhealthy pageviews and the severity of the lockdown (defined with the change in the time spent at home from baseline), using Spearman's correlation coefficient. First, we check this correlation on the entire data we have.</p>
+		
+		<iframe src="./plots/spearman_total.html" height=550 width=1200></iframe>
+		
+		<p align="justify">Interestingly, the correlation seems shifted to the right, meaning that the interest for healthy food relative to unhealthy food increased with an increase in time spent at home for most Wikipedia users. This trend is however significantly the opposite for Catalan speakers.</p>
+		<p align="justify">We next focus our analysis to around 60 days (about 2 months) before and after major events of the pandemic timeline, to capture the influence of the changes caused by the event. First, we study the correlation of the ratio and the mobility data about 2 months before and after the first mobility restriction.</p>
+		
+		<iframe src="./plots/spearman_58_Mobility.html" height=550 width=1200></iframe>
+		
+		<p align="justify">This time, the correlations are quite spread out, with a high negative correlation for some languages (German, English and Finnish) and a moderate positive correlation for other languages (Dutch, Serbian and Italian). This once again highlights the fact that people from different cultures reacted differently to restrictions.</p>
+		<p align="justify">Next, we analyze the correlations around the first normalcy time point.</p>
+		
+		<iframe src="./plots/spearman_Normalcy.html" height=550 width=1200></iframe>
+		
+		<p align="justify">The languages for which the correlation was significant had a high positive correlation: the relative interest for healthy food seemed to increase with time spent at home for English, Dutch and Italian-speaking users.</p>
+		<p align="justify">Finally, we focus on the correlations around the second normalcy time point.</p>
+		
+		<iframe src="./plots/spearman_Second_Normalcy.html" height=550 width=1200></iframe>
+		
+		<p align="justify">You must be as surprised as we were when we found this result: the correlation between interest and mobility seemed to be the opposite for Italy compared to the first normalcy. Perhaps, as it was the second normalcy, the relationship between the newly returned freedom and the food preferences was affected by different factors.</p>
 
 
-<h2 id="q2">Cultural interests</h2>
+<h2 id="q2">World cuisines</h2>
 		
 	<p align="justify">In this section, we will investigate the interests shifts during COVID-19 in terms of cuisines from all around the world. When trying out new dishes, did individuals become more interested in their own history and traditions, or did they want to explore the cuisine of other cultures? To answer this question, we extracted the pageviews for the Wikipedia pages related to 24 different cuisines.</p>
 		
