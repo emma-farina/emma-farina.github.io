@@ -18,8 +18,6 @@ nav-menu: true
 
 <h2 id="intro">Background and motivation</h2>
 		
-<iframe src="./plots/prova2.html" height=550 width=1200></iframe>
-
 <p align="justify">During the pandemic, there were significant changes in people's daily routines and habits, including the way they shopped for and prepared food. For example, some people may have started cooking at home more often due to stay-at-home orders or concerns about going out to eat, which could have led to an increase in Wikipedia pageviews for food-related topics as people sought information on cooking and recipe ideas. On the other hand, some people may have been less interested in food-related topics due to stress or other distractions related to the pandemic, which could have led to a decrease in Wikipedia pageviews.
 
 It is also worth noting that Wikipedia pageviews can be influenced by a variety of factors beyond the pandemic, such as the availability of alternative sources of information, changes in search trends, and the overall popularity of a topic.
@@ -265,6 +263,8 @@ In this context, home food delivery services have taken advantage of the opportu
 	<p align="justify">All over the world, the pandemic has changed the way we shop and eat. As the restaurant industry emerges from COVID-19, which dining habits will decline in popularity, and which will remain?<br>
 Now that we are getting ready for the end of the pandemic, it is natural to wonder what life will be like in a post-Covid world. Was the rise of the food delivery sector in 2020 the beginning of a real change in consumer behavior?</p>
 	<p align="justify">For this objective, we will consider the behavior of eight different countries, namely: Italy, England, Germany, Netherlands, Serbia, Turkey, Spain, and Finland, and we will consider the trend of interest in food delivery using Google Trends.</p>
+		
+	<iframe src="./plots/Food_delivery_vs_Mobility_data.html" height=550 width=1200></iframe>
 
 <h2 id="conclusion">Conclusion</h2>
 
