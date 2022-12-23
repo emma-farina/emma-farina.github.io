@@ -82,10 +82,7 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 		
 		<p align="justify">As we mentioned before, some cuisines show seasonal trends that are repeated every year. We want to capture the underlying information about interest shifts due to the pandemic, regardless of the season, so we decomposed the time series in seasonal component, trend and residuals, as shown in the plot below. PROVA 1</p>
 		
-		<iframe src="./plots/seasonal_trends.jpeg" style="width: 50%; margin: 0 auto; text-align:center"></iframe>
-		
-		<iframe src="./plots/seasonal_trends.jpeg" width=600 height=400 style="margin: 0 auto; text-align:center"></iframe>
-		
+				
 		<p><iframe src="./plots/seasonal_trends.jpeg" width=600 height=400 style="margin: 0 auto; text-align:center"></iframe></p>
 		
 <style>
