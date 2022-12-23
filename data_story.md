@@ -56,7 +56,11 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 
 <h2 id="q2">Cultural interests</h2>
 		
-	<p align="justify">In this section, we will investigate the interests shifts during COVID-19 in terms of cuisines from all around the world. When trying out new dishes, did individuals become more interested in their own history and traditions, or did they want to explore the cuisine of other cultures? To answer this question, we extracted the pageviews for the Wikipedia pages related to 24 different cuisines. You can have a first overview of the data by looking at the plot below, which shows the evolution of the number of clicks on each of the cuisines considered between 2018 and 2022. You can change the Wikipedia language you are interested in using the dropdown menu.</p>
+	<p align="justify">In this section, we will investigate the interests shifts during COVID-19 in terms of cuisines from all around the world. When trying out new dishes, did individuals become more interested in their own history and traditions, or did they want to explore the cuisine of other cultures? To answer this question, we extracted the pageviews for the Wikipedia pages related to 24 different cuisines.</p>
+		
+	<h4>Data exploration</h4>
+		
+	<p align="justify">You can have a first overview of the data by looking at the plot below, which shows the evolution of the number of clicks on each of the cuisines considered between 2018 and 2022. You can change the Wikipedia language you are interested in using the dropdown menu.</p>
 		
 	<iframe src="./plots/PageviewsCultures1.html" height=550 width=1200></iframe>
 		
@@ -68,11 +72,16 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 		
 		<p align="justify">Italian food, which appears to be the most popular across the world considering the English Wikipedia, often appears among the most searched, together with the food from the users' own country. For instance German cuisine, followed by Italian cuisine, are the most visited in German. Japanese cuisine is among the top cuisines for many languages as well. In some cases the cuisine of the corresponding country is followed by similar ones, in terms of ingredients and geographical proximity. For example, the second most popular in Turkish is Greek cuisine, which inherits many dishes from Ottoman cuisine.</p>
 		
-		<p align="justify">For the Italian version of Wikipedia the means of these distributions vary largely (around 4 orders of magnitude), and we can notice similar characteristics for many other languages. For this reason, we will standardize the data before continuing the analysis. The world map below shows the relative popularity of each cuisine in the English language (considered as representative of users from all over the world) after standardizing and removing the seasonal component. The time bar below the heatmap allows you to scroll across dates and see the evolution of users' interest from 2018 to 2022.</p>
+		<h4>Preprocessing</h4>
+		
+		<p align="justify">For the Italian version of Wikipedia the means of the pageviews distributions vary largely (around 4 orders of magnitude), and we can notice similar characteristics for many other languages. For this reason, we will standardize the data before continuing the analysis, such that the popularity index for each cuisine in each date is relative to the maximum popularity reached by that cuisine across the whole study period.</p>
+		
+		<p align="justify">The world map below shows the relative popularity of each cuisine in the English language (considered as representative of users from all over the world) after standardizing and removing the seasonal component. Use the cursor below the map to scroll across dates and see the evolution of users' interest from 2018 to 2022, and hover over each country to see its top 3 dishes and its popularity index for the corresponding date.</p>
 		
 		<iframe src="./plots/WorldMap.html" height=550 width=1200></iframe>
 		
-		<p align="justify"></p>
+		<p align="justify">As we mentioned before, some cuisines show seasonal trends that </p>
+		
 
 
 <h2 id="q3">Food delivery services</h2>
