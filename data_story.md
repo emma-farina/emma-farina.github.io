@@ -79,22 +79,22 @@ nav-menu: true
 		
 		<p align="justify">We then asked ourselves if there was a monotonic correlation between the ratio of healthy/unhealthy pageviews and the severity of the lockdown (defined with the change in the time spent at home from baseline), using Spearman's correlation coefficient. First, we check this correlation on the entire data we have.</p>
 		
-		<iframe src="./plots/spearman_total.jpeg" height=400 width=1200></iframe>
+		<iframe src="./plots/spearman_total.jpeg" height=300 width=1200></iframe>
 		
 		<p align="justify">Interestingly, the correlation seems shifted to the right, meaning that the interest for healthy food relative to unhealthy food increased with an increase in time spent at home for most Wikipedia users. This trend is however significantly the opposite for Catalan speakers.</p>
 		<p align="justify">We next focus our analysis to around 60 days (about 2 months) before and after major events of the pandemic timeline, to capture the influence of the changes caused by the event. First, we study the correlation of the ratio and the mobility data about 2 months before and after the first mobility restriction.</p>
 		
-		<iframe src="./plots/spearman_58_Mobility.jpeg" height=400 width=1200></iframe>
+		<iframe src="./plots/spearman_58_Mobility.jpeg" height=300 width=1200></iframe>
 		
 		<p align="justify">This time, the correlations are quite spread out, with a high negative correlation for some languages (German, English and Finnish) and a moderate positive correlation for other languages (Dutch, Serbian and Italian). This once again highlights the fact that people from different cultures reacted differently to restrictions.</p>
 		<p align="justify">Next, we analyze the correlations around the first normalcy time point.</p>
 		
-		<iframe src="./plots/spearman_Normalcy.jpeg" height=400 width=1200></iframe>
+		<iframe src="./plots/spearman_59_Normalcy.jpeg" height=300 width=1200></iframe>
 		
 		<p align="justify">The languages for which the correlation was significant had a high positive correlation: the relative interest for healthy food seemed to increase with time spent at home for English, Dutch and Italian-speaking users.</p>
 		<p align="justify">Finally, we focus on the correlations around the second normalcy time point.</p>
 		
-		<iframe src="./plots/spearman_Second_Normalcy.jpeg" height=400 width=1200></iframe>
+		<iframe src="./plots/spearman_59_Second_Normalcy.jpeg" height=300 width=1200></iframe>
 		
 		<p align="justify">You must be as surprised as we were when we found this result: the correlation between interest and mobility seemed to be the opposite for Italy compared to the first normalcy. Perhaps, as it was the second normalcy, the relationship between the newly returned freedom and the food preferences was affected by different factors.</p>
 
@@ -308,7 +308,7 @@ nav-menu: true
 		
 	<p align="justify">You might now ask whether, when Wikipedia users weren't searching for their own country's cuisine, they showed more interest for similar cultures, rather than completely different ones. To get a first idea of how similar the cuisines we considered are, you can have a look at the following heat map, based on shared ingredients between pairs of cuisines.</p>
 		
-	<iframe src="./plots/Cuisine_similarity.jpeg" height=600 width=600></iframe>
+	<iframe src="./plots/Cuisine_similarity.jpeg" height=500 width=600></iframe>
 		
 	<p align="justify">It would be interesting to use this discrimination to further analyze interest shifts, as people might associate the tastes they are used to to comfort, and turn towards them in difficult times.
 
