@@ -25,7 +25,7 @@ nav-menu: true
   		<li>When trying out new dishes, did individuals become more interested in their own history and traditions, or did they want to explore the cuisine of other cultures?</li>
   		<li>Did mobility restrictions during the pandemic influence the frequency of food delivery orders? Did delivery services permanently become part of most people's lives?</li>
 	</ul> 
-<p align="justify">We will extract Wikipedia categories of foods we are interested in, namely healthy and unhealthy food and typical dishes from different cultures, and analyse their changes in popularity throughout the last 5 years and particularly comparing the period before and during the pandemic. For analysing the rise of food delivery services, instead, we deemed Google Trends a more suitable data source, as customers directly search the names of these companies on Google when they want to order something.</p>
+<p align="justify">We will extract Wikipedia categories of foods we are interested in, namely healthy and unhealthy food and typical dishes from different cultures, and analyse their changes in popularity throughout the last 5 years and particularly comparing the period before and during the pandemic. For analysing the rise of food delivery services, instead, we deemed Google Trends a more suitable data source [<a href="https://towardsdatascience.com/the-impact-of-covid-19-on-food-delivery-services-in-the-u-s-47eae04655c8">6</a>], as customers directly search the names of these companies on Google when they want to order something.</p>
 
 
 <h2>Datasets</h2>
