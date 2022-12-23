@@ -68,7 +68,7 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 		
 		<p align="justify">Explore the plot below to get an idea of the distribution of the weekly pageviews for every cuisine in each language. The missing values for some cuisines are due to the fact that the corresponding pages were not available in the target language. Zoom in and hover over the boxplots to see the minimum, maximum, median, first and third quartiles, and upper and lower fences. Can you see some patterns in the most popular cuisines across different languages?</p>
 		
-		<iframe src="./plots/DistributionPageviewsCulturesLog.html" height=550 width=1200></iframe>
+		<iframe src="./plots/DistributionPageviews.html" height=550 width=1200></iframe>
 		
 		<p align="justify">Italian food, which appears to be the most popular across the world considering the English Wikipedia, often appears among the most searched, together with the food from the users' own country. For instance German cuisine, followed by Italian cuisine, are the most visited in German. Japanese cuisine is among the top cuisines for many languages as well. In some cases the cuisine of the corresponding country is followed by similar ones, in terms of ingredients and geographical proximity. For example, the second most popular in Turkish is Greek cuisine, which inherits many dishes from Ottoman cuisine.</p>
 		
@@ -207,7 +207,11 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 
 <h2 id="q3">Food delivery services</h2>
 
-	<p align="justify">Replicate analysis from publication.</p>
+	<p align="justify">The COVID-19 pandemic has turned people's lives upside down, completely changing their habits and forcing them to stay home for long periods. With the ability to go outdoors and conduct social life activities halted, the restaurant industries have had to take drastic measures to stay afloat.
+In this context, home food delivery services have taken advantage of the opportunity, continuing to provide individuals with the pleasure of a good sushi or a still hot pizza that arrives at home. While platforms like Uber Eats, Glovo, Grubhub etc. were mostly unknown until 2019, it is currently impossible to meet a person who has never ordered using a home food service yet.</p>
+	<p align="justify">All over the world, the pandemic has changed the way we shop and eat. As the restaurant industry emerges from COVID-19, which dining habits will decline in popularity, and which will remain?<br>
+Now that we are getting ready for the end of the pandemic, it is natural to wonder what life will be like in a post-Covid world. Was the rise of the food delivery sector in 2020 the beginning of a real change in consumer behavior?</p>
+	<p align="justify">For this objective, we will consider the behavior of eight different countries, namely: Italy, England, Germany, Netherlands, Serbia, Turkey, Spain, and Finland, and we will consider the trend of interest in food delivery using Google Trends.</p>
 
 <h2 id="conclusion">Conclusion</h2>
 
