@@ -60,13 +60,13 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 		
 	<h4>Data exploration</h4>
 		
-	<p align="justify">You can have a first overview of the data by looking at the plot below, which shows the evolution of the number of clicks on each of the cuisines considered between 2018 and 2022. You can change the Wikipedia language you are interested in using the dropdown menu.</p>
+	<p align="justify">You can have a first overview of the data by looking at the plot below, which shows the evolution of the number of clicks on each of the cuisines considered between 2018 and 2022. The missing values for some cuisines are due to the fact that the corresponding pages were not available in the target language. You can change the Wikipedia language you are interested in using the dropdown menu.</p>
 		
 	<iframe src="./plots/PageviewsCultures1.html" height=550 width=1200></iframe>
 		
 	<p align="justify">Do you notice some re-occurring fluctuations or some interesting spikes? For instance, if you look at the Italian Wikipedia, German cuisine appears to gain popularity each winter, whereas Greek cuisine becomes more popular during the summer. In fact, traditional German cuisine is based on bread, potatoes and meat, especially pork, heavier foods that provide comfort and warmth during the cold months. On the other hand, the most famous Greek recipes include ingredients such as yogurt, cucumber and seafood, which are refreshing and more suitable for the summer. Thai cuisine has a recurrent spike in September, when Thai food festivals are held all around the world. The German and Dutch Wikipedia show seasonal fluctuations for many cuisines, while the English version, being representative of Wikipedia users from every corner of the world, not that much. It can still show some sudden interest shifts that characterized the whole globe, like the great increase in pageviews for Japanese cuisine in correspondence to the Tokyo 2020 Olympic games, or something that went viral for a brief period.</p>
 		
-		<p align="justify">Explore the plot below to get an idea of the distribution of the weekly pageviews for every cuisine in each language. The missing values for some cuisines are due to the fact that the corresponding pages were not available in the target language. Zoom in and hover over the boxplots to see the minimum, maximum, median, first and third quartiles, and upper and lower fences. Can you see some patterns in the most popular cuisines across different languages?</p>
+		<p align="justify">Explore the plot below to get an idea of the distribution of the weekly pageviews for every cuisine in each language. Zoom in and hover over the boxplots to see the minimum, maximum, median, first and third quartiles, and upper and lower fences. Can you see some patterns in the most popular cuisines across different languages?</p>
 		
 		<iframe src="./plots/DistributionPageviews.html" height=550 width=1200></iframe>
 		
@@ -80,7 +80,7 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 		
 		<iframe src="./plots/WorldMap1.html" height=550 width=1200></iframe>
 		
-		<p align="justify">As we mentioned before, some cuisines show seasonal trends that are repeated every year. We want to capture the underlying information about interest shifts due to the pandemic, regardless of the season, so we decomposed the time series in seasonal component, trend and residuals, as shown in the plot below.</p>
+		<p align="justify">As mentioned before, some cuisines show seasonal trends that are repeated every year. We want to capture the underlying information about interest shifts due to the pandemic, regardless of the season, so we decomposed the time series in seasonal component, trend and residuals, as shown in the plot below.</p>
 				
 		<iframe src="./plots/seasonal_trends.jpeg" width=600 height=400 style="margin: 0 auto; text-align:center"></iframe>
 		
