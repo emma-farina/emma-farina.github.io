@@ -286,6 +286,74 @@ Now that we are getting ready for the end of the pandemic, it is natural to wond
 		
 		<p align="justify">To track the influence of the pandemic on food delivery preferences, we opted to use Google's Community Mobility Reports, which Google made publicly available during the pandemic. The data show the variation in visitors to the categorized places or time spent in these places compared to the reference days. The reference day is the average value for the five weeks from January 3 to February 6, 2020.</p>
 		<p align="justify">For each geographical area-category pair, the reference does not correspond to a single value but to seven individual values. Therefore, we grouped the data by date and considered their average to obtain time series for each geographic area. For this question, we will consider the category 'retail_and_recreation_percent_change_from_baseline', which contains data regarding travel trends for places such as restaurants, bars, shopping centers, theme parks, museums, libraries, and cinemas.</p>
+		
+		<h4>Data exploration</h4>
+		
+		<p align="justify">You can have a first overview of the data by looking at the plots below, which shows the evolution of the food delivery interest for each country between 2018 and 2022 against the Google mobility data.</p>
+		
+		<p align="justify">Looking at the graphs for the different countries, a clear difference in general interest in food delivery between the period before and after the first restrictions on mobility is immediately visible. Furthermore, the negative correlation between the two time series in the pandemic period is very evident. It is also interesting to note that in Serbia, Turkey, and Spain, with the easing of restrictions in the last period of the pandemic, even greater mobility is being recorded compared to the baseline considered by Google. In any case, while for Spain and Turkey, this increase in mobility is followed by a decrease in interest in food delivery, for Serbia, this maintains a positive trend.</p>
+		<p align="justify">To give a general overview, all countries show a steep increase in food delivery searches immediately after the first restrictive measures. From that moment on, the interest in food delivery looks closely related to mobility. However, Serbia is the only country where the food delivery trend remains growing. Again in Serbia, we don't find the steep increase mentioned, but a significant peak around October 2022, when the nation experienced a considerable wave of COVID-19 infections. Turkey has a unique behavior, as it is the only country where restrictions seem to be positively correlated with food delivery.</p>
+		<p align="justify">But let's analyze in more detail what we have visualized in the plots.</p>
+		
+		<h4>Modeling</h4>
+		
+		<p align="justify">Having initially explored the data, we will now investigate the presence of a structural change in the levels of interest for food delivery before and after the starting of the mobility restrictions. Later, we will explore whether causality exists between mobility and the food delivery interest. To conclude, to have a proactive and forward-looking perspective, we thought of building a forecasting model that allows expecting the future and could be helpful for investors, journalists or researchers.</p>
+		
+		<h4>Modeling</h4>
+		
+		<p align="justify">We used a t-test to test the null hypothesis that pre- and post-pandemic interest in food delivery has the same average value. For all countries, the resulting p-value was less than 0.05, therefore rejecting the null hypothesis.</p>
+			
+		<table class="alt" style="width: 50%; margin: 0 auto; text-align:center"> 
+			<thead> 
+				<tr> 
+					<th style="text-align:center">Language</th> 
+					<th style="text-align:center">t-statistics</th> 
+					<th style="text-align:center">p-value</th> 
+				</tr> 
+			</thead> 
+			<tbody> 
+				<tr> 
+					<td>Italy (it)</td> 
+					<td>-13.1903</td> 
+					<td>8.2663e-31</td> 
+				</tr> 
+				<tr> 
+					<td> Great Britain (en)</td> 
+					<td>-25.8633</td>
+					<td>6.9344 e-73</td>
+				</tr> 
+				<tr>
+					<td>Germany (de)</td> 
+					<td>-36.2818</td> 
+					<td>6.028e-97</td> 
+				</tr> 
+				<tr> 
+					<td>Netherlands (nl)</td> 
+					<td>-35.5214</td> 
+					<td>1.3719e-85</td> 
+				</tr> 
+				<tr> 
+					<td>Serbia (sr)</td> 
+					<td>-16.6632</td> 
+					<td>2.769e-36</td> 
+				</tr> 
+				<tr> 
+					<td>Turkey (tr)</td>
+					<td>-10.2825</td> 
+					<td>8.7905e-20</td> 
+				</tr>
+				<tr> 
+					<td>Spain (ca)</td> 
+					<td>-9.4295</td> 
+					<td>7.4483e-18</td> 
+				</tr> 
+				<tr> 
+					<td>Finland (fi)</td> 
+					<td>-9.6796</td> 
+					<td>4.0300e-19</td> 
+				</tr> 
+			</tbody> 
+		</table> 
  
 
 <h2 id="conclusion">Conclusion</h2>
