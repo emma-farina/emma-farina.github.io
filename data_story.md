@@ -78,7 +78,7 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 		
 		<p align="justify">The world map below shows the relative popularity of each cuisine in the English language, considered as representative of the world, after standardizing and removing the seasonal component. Use the cursor below the map to scroll across dates and see the evolution of users' interest from 2018 to 2022, and hover over each country to see its top 3 dishes and its popularity index for the corresponding date.</p>
 		
-		<iframe src="./plots/WorldMap.html" height=550 width=1200></iframe>
+		<iframe src="./plots/WorldMap1.html" height=550 width=1200></iframe>
 		
 		<p align="justify">As we mentioned before, some cuisines show seasonal trends that are repeated every year. We want to capture the underlying information about interest shifts due to the pandemic, regardless of the season, so we decomposed the time series in seasonal component, trend and residuals, as shown in the plot below.</p>
 		
