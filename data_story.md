@@ -80,17 +80,9 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 		
 		<iframe src="./plots/WorldMap1.html" height=550 width=1200></iframe>
 		
-		<p align="justify">As we mentioned before, some cuisines show seasonal trends that are repeated every year. We want to capture the underlying information about interest shifts due to the pandemic, regardless of the season, so we decomposed the time series in seasonal component, trend and residuals, as shown in the plot below. PROVA 4</p>
-		
-<style>
-	.center{
-	display: block;
-	margin: 0 auto;
-	width: 50%;
-}
-	</style}
+		<p align="justify">As we mentioned before, some cuisines show seasonal trends that are repeated every year. We want to capture the underlying information about interest shifts due to the pandemic, regardless of the season, so we decomposed the time series in seasonal component, trend and residuals, as shown in the plot below. PROVA 5</p>
 				
-		<p><iframe src="./plots/seasonal_trends.jpeg" style=center></iframe></p>
+		<iframe src="./plots/seasonal_trends.jpeg" style="width: 50%; margin: 0 auto; text-align:center"></iframe>
 		
 		<p align="justify"><br>Since we are interested in variations from regular fluctuations that could be related to COVID-19, we decided to filter out the seasonal component. We do this for all the cuisines that show some relevant periodic fluctuations, whereas for the few cuisines that seem more constant we skip this step in order to avoid losing information. The remaining components are the trend and the residuals. The residuals represent the deviation of the data with respect to the model composed of trend and seasonal component, so they are very fluctuating and sometimes present huge spikes. In this context, where we are looking for an underlying behavior that is on a longer timescale compared to weekly variations, considering only the residuals might lead us to overinterpret this information. The trend would be more suitable to analyze changes in habits that can take a few weeks to occur, but we might discard relevant information by smoothening the signal so much. For instance, the interest for Greek cuisine in 2020 actually dropped way more than the trends shows. Furthermore, we use the mobility data to analyze the correlation between mobility restrictions and interest in different kinds of food, and the restrictions during the pandemic sometimes had abrupt changes. For these reasons, for the following analysis we will consider the sum of trend and residuals, only filtering out the seasonal component.</p>
 		
