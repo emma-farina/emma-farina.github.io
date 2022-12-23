@@ -142,13 +142,68 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 		</tbody>
 	</table>
 		
-	<p align="justify"><br>Interestingly, a significant change was found in the Dutch Wikipedia and especially in the English Wikipedia, so there is an interest shift of the whole world population. Since the t-statistics is negative, meaning that the ratio decreased, this shows that people tended to search more dishes related to foreign cuisines, rather than their own traditional food.</p>
+	<p align="justify"><br>Interestingly, a significant change was found in the Dutch Wikipedia and especially in the English Wikipedia, so there seems to be an interest shift of the whole world population. Since the t-statistics is negative, meaning that the ratio decreased, this shows that people tended to search more dishes related to foreign cuisines, rather than their own traditional food.</p>
 		
 	<h4>Was the interest shift related to mobility restrictions?</h4>
 		
 	<p align="justify">Now that we have noticed a change for some countries, to address our research question we want to check whether different degrees of mobility restrictions have an effect on the interest in other cuisines. To do this, we use the mobility data starting from the first mobility restriction decided in the corresponding country. Explore the trends in pageviews and the associated mobility data in the graph below, selecting the language using the dropdown menu. Do you notice any possible effect related to how strictly people were forced to stay at home? The vertical lines represent the beginning of lockdown (or of the hardest mobility restrictions for the countries that didn't have lockdown), the end of the first period of restrictions, and the end of the second period of restrictions.</p>
 
-
+	<iframe src="./plots/Ratio&Mobility.html" height=550 width=1200></iframe>
+		
+	<p><br>Since people's interest shift towards other cultures might respond to the mobility restrictions with a delay, we want to know what time lag yields the highest correlation between our ratio and the mobility data. We use a Granger causality test to determine whether the mobility time series precedes the pageviews variations with a time lag of a certain amount of weeks. We therefore assume that there are no latent confounding effects and look for a linear causal relationship between the two time series. The results are presented in the table below.</p>
+		
+	<table class="alt" style="width: 50%; margin: 0 auto; text-align:center">
+		<thead>
+			<tr>
+				<th style="text-align:center">Language</th>
+				<th style="text-align:center">Time lag</th>
+				<th style="text-align:center">p-value</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Italian (it)</td>
+				<td>Week 1</td>
+				<td>0.373483</td>
+			</tr>
+			<tr>
+				<td>German (de)</td>
+				<td>Week 2</td>
+				<td>0.002779</td>
+			</tr>
+			<tr>
+				<td>Dutch (nl)</td>
+				<td>Week 1</td>
+				<td>0.865405</td>
+			</tr>
+			<tr>
+				<td>Serbian (sr)</td>
+				<td>Week 1</td>
+				<td>0.000493</td>
+			</tr>
+			<tr>
+				<td>Turkish (tr)</td>
+				<td>Week 2</td>
+				<td>0.191701</td>
+			</tr>
+			<tr>
+				<td>Catalan (ca)</td>
+				<td>Week 2</td>
+				<td>0.037245</td>
+			</tr>
+			<tr>
+				<td>Finnish (fi)</td>
+				<td>Week 1</td>
+				<td>0.053010</td>
+			</tr>
+			<tr>
+				<td>English (en)</td>
+				<td>Week 2</td>
+				<td>0.000213</td>
+			</tr>
+		</tbody>
+	</table>
+	
 
 <h2 id="q3">Food delivery services</h2>
 
