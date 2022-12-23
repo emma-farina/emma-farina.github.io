@@ -90,50 +90,57 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 		
 		<p align="justify">To address our main question regarding cultural interests, we calculate for each Wikipedia language the ratio between the pageviews for the corresponding cuisine and the sum of the pageviews for all others. You can see these ratios here (insert anchor link), together with the mobility data. We performed a t-test to see whether there were interest shifts, based on this ratio, between pre-COVID and COVID periods. The results are shown in the following table.</p>
 		
-<div class="table-wrapper">
 	<table class="alt">
 		<thead>
 			<tr>
-				<th>Name</th>
-				<th>Description</th>
-				<th>Price</th>
+				<th>Language</th>
+				<th>t-statistics</th>
+				<th>p-value</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<td>Item1</td>
-				<td>Ante turpis integer aliquet porttitor.</td>
-				<td>29.99</td>
+				<td>Italian (it)</td>
+				<td>0.738997</td>
+				<td>0.769632</td>
 			</tr>
 			<tr>
-				<td>Item2</td>
-				<td>Vis ac commodo adipiscing arcu aliquet.</td>
-				<td>19.99</td>
+				<td>German (de)</td>
+				<td>3.683396</td>
+				<td>0.999847</td>
 			</tr>
 			<tr>
-				<td>Item3</td>
-				<td> Morbi faucibus arcu accumsan lorem.</td>
-				<td>29.99</td>
+				<td>Dutch (nl)</td>
+				<td>-3.485403</td>
+				<td>0.000321</td>
 			</tr>
 			<tr>
-				<td>Item4</td>
-				<td>Vitae integer tempus condimentum.</td>
-				<td>19.99</td>
+				<td>Serbian (sr)</td>
+				<td>-0.854973</td>
+				<td>0.196706</td>
 			</tr>
 			<tr>
-				<td>Item5</td>
-				<td>Ante turpis integer aliquet porttitor.</td>
-				<td>29.99</td>
+				<td>Turkish (tr)</td>
+				<td>-0.427367</td>
+				<td>0.334828</td>
+			</tr>
+			<tr>
+				<td>Catalan (ca)</td>
+				<td>0.792671</td>
+				<td>0.785632</td>
+			</tr>
+			<tr>
+				<td>Finnish (fi)</td>
+				<td>3.783060</td>
+				<td>0.999900</td>
+			</tr>
+			<tr>
+				<td>English (en)</td>
+				<td>-5.270606</td>
+				<td>2.003964e-07</td>
 			</tr>
 		</tbody>
-		<tfoot>
-			<tr>
-				<td colspan="2"></td>
-				<td>100.00</td>
-			</tr>
-		</tfoot>
 	</table>
-</div>
 
 
 <h2 id="q3">Food delivery services</h2>
