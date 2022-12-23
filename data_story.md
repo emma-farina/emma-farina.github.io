@@ -191,11 +191,11 @@ nav-menu: true
 		
 	<h4>Was the interest shift related to mobility restrictions?</h4>
 		
-	<p align="justify">Now that we have noticed a change for some countries, to address our research question we want to check whether different degrees of mobility restrictions have an effect on the interest in other cuisines. To do this, we use the mobility data starting from the first mobility restriction decided in the corresponding country. In particular, we take into account the mobility within residential areas, which will be higher when people are forced to stay at home. Explore the trends in pageviews and the associated mobility data in the graph below, selecting the language using the dropdown menu. You can change the timescale using the buttons at the top and the cursor at the bottom. Do you notice any possible effect related to how strictly people were forced to stay at home? The vertical lines represent the beginning of lockdown (or of the hardest mobility restrictions for the countries that didn't have lockdown), the end of the first period of restrictions, and the end of the second period of restrictions.</p>
+	<p align="justify">Now that we have noticed a change for some countries, to address our research question we want to check whether different degrees of mobility restrictions have an effect on the interest in other cuisines. To do this, we use the mobility data starting from the first mobility restriction decided in the corresponding country. In particular, we take into account the mobility within residential areas, which will be higher when people are forced to stay at home. Therefore, higher values in these mobility data mean higher mobility restrictions. Explore the trends in pageviews and the associated mobility data in the graph below, selecting the language using the dropdown menu. You can change the timescale using the buttons at the top and the cursor at the bottom. Do you notice any possible effect related to how strictly people were forced to stay at home? The vertical lines represent the beginning of lockdown (or of the hardest mobility restrictions for the countries that didn't have lockdown), the end of the first period of restrictions, and the end of the second period of restrictions.</p>
 
 	<iframe src="./plots/Ratio&Mobility.html" height=550 width=1200></iframe>
 		
-	<p align="justify">If you look at the German Wikipedia, there is a noticeable spike in the pageviews ratio just a few weeks after the beginning of lockdown, and another increase around the beginning of 2021, matching the second round of mobility restrictions. A similar trend can be observed for English, whereas other languages such as Turkish and Catalan don't seem to show any particular matching pattern. We calculated the Spearman correlation to check if there is a significant relationship between pageviews ratio and mobility data for any of the languages. The results are collected in the table below, confirming what we just observed for German and showing a barely significant correlation for Finnish, too.</p>
+	<p align="justify">If you look at the German Wikipedia, there is a noticeable spike in the pageviews ratio just a few weeks after the beginning of lockdown, and another increase around the beginning of 2021, matching the second round of mobility restrictions. A similar trend can be observed for English, whereas other languages such as Turkish and Catalan don't seem to show any particular matching pattern. We calculated the Spearman correlation to check if there is a significant relationship between pageviews ratio and mobility data for any of the languages. The results are collected in the table below.</p>
 		
 	<table class="alt" style="width: 50%; margin: 0 auto; text-align:center">
 		<thead>
@@ -208,48 +208,47 @@ nav-menu: true
 		<tbody>
 			<tr>
 				<td>Italian (it)</td>
-				<td>0.103</td>
-				<td>0.226</td>
+				<td>-0.015</td>
+				<td>0.865</td>
 			</tr>
 			<tr>
 				<td>German (de)</td>
-				<td>-0.619</td>
-				<td>3.65e-16</td>
+				<td>0.712</td>
+				<td>8.74e-23</td>
 			</tr>
 			<tr>
 				<td>Dutch (nl)</td>
-				<td>-0.035</td>
-				<td>0.682</td>
-			</tr>
-			<tr>
-				<td>Serbian (sr)</td>
-				<td>-0.337</td>
-				<td>4.91e-05</td>
+				<td>0.319</td>
+				<td>0.000128</td>
 			</tr>
 			<tr>
 				<td>Turkish (tr)</td>
-				<td>0.399</td>
-				<td>1.02e-06</td>
+				<td>-0.240</td>
+				<td>0.00442</td>
 			</tr>
 			<tr>
 				<td>Catalan (ca)</td>
-				<td>-0.044</td>
-				<td>0.606</td>
+				<td>-0.098</td>
+				<td>0.252</td>
 			</tr>
 			<tr>
 				<td>Finnish (fi)</td>
-				<td>-0.283</td>
-				<td>0.000704</td>
+				<td>0.493</td>
+				<td>6.97e-10</td>
 			</tr>
 			<tr>
 				<td>English (en)</td>
-				<td>-0.052</td>
-				<td>0.541</td>
+				<td>0.373</td>
+				<td>6.21e-06</td>
 			</tr>
 		</tbody>
 	</table>
 		
-	<p align="justify"><br>Since people's interest shift towards other cultures might respond to the mobility restrictions with a delay, we want to know what time lag yields the highest correlation between our ratio and the mobility data. We use a Granger causality test to determine whether the mobility time series precedes the pageviews variations with a time lag of a certain amount of weeks. According to Granger causality, if a series X "Granger-causes" a series Y, then past values of X should contain information that helps predict Y. A prerequisite for performing the Granger causality test is that the time series have to be stationary. For this purpose, we look at the p-value of the Augmented Dickey-Fuller test and differentiate the time series in the case of non-stationarity.</p>
+	<p align="justify"><br>The Spearman's correlation results confirm what we just observed for German, together with Dutch, Finnish, and English. The positive correlation coefficient means that the two variables increase together, so as the mobility restrictions are higher people in these countries tend to search more for their own dishes, as compared to foreign ones. On the other hand, Turkish shows a significant negative correlation coefficient, highlighting an opposite trend of mobility data against pageviews ratio.</p>
+		
+	<h4>Did lockdown make people more "nationalistic"?</h4>
+		
+	<p align="justify"><br>Since people's interest shift might respond to the mobility restrictions with a delay, we want to know what time lag yields the highest correlation between our ratio and the mobility data. We use a Granger causality test to determine whether the mobility time series precedes the pageviews variations with a time lag of a certain amount of weeks. According to Granger causality, if a series X "Granger-causes" a series Y, then past values of X should contain information that helps predict Y. A prerequisite for performing the Granger causality test is that the time series have to be stationary. For this purpose, we look at the p-value of the Augmented Dickey-Fuller test and differentiate the time series in the case of non-stationarity.</p>
 		<p align="justify">Considering the long pandemic period and the different COVID-19 waves of various entities, we imagine a possible difference in people's responses in the long run. For this reason, we divide the pandemic period into three sub-time intervals:
 	<ul>
   		<li>An initial period, also called the 'COVID-19 Shock Period', which corresponds to the onset of COVID-19, and extends up to the end of the first hardest mobility restrictions;</li>
@@ -283,11 +282,6 @@ nav-menu: true
 				<td>0.865405</td>
 			</tr>
 			<tr>
-				<td>Serbian (sr)</td>
-				<td>Week 1</td>
-				<td>0.000493</td>
-			</tr>
-			<tr>
 				<td>Turkish (tr)</td>
 				<td>Week 2</td>
 				<td>0.191701</td>
@@ -310,8 +304,13 @@ nav-menu: true
 		</tbody>
 	</table>
 		
-	<p align="justify"><br>We have significant causal relationship for German, Catalan and English, for which people's interest follows mobility restrictions by two weeks, and for Serbian, for which the time lag is only one week. Overall, we can say an increased curiosity towards foreign cuisines is observed after a period of around two weeks after strict mobility measures are in place. As compared to the results for the other research questions, ...</p>
-	
+	<p align="justify"><br>We have significant causal relationship for German, Catalan and English, for which people's interest follows mobility restrictions by two weeks. Overall, we can say an increased investigation of one's own country's traditions is observed after a period of around two weeks after strict mobility measures are in place. This result is surprising, as one might expect these kind of changes to occur on a longer time scale.</p>
+		
+	<p align="justify">You might now ask whether, when Wikipedia users weren't searching for their own country's cuisine, they showed more interest for similar cultures, rather than completely different ones. To get a first idea of how similar the cuisines we considered are, you can have a look at the following heat map, based on shared ingredients between pairs of cuisines.</p>
+		
+	<iframe src="./plots/Cuisine_similarity.jpeg" height=600 width=600></iframe>
+		
+	<p align="justify">It would be interesting to use this discrimination to further analyze interest shifts, as people might associate the tastes they are used to to comfort, and turn towards them in difficult times.
 
 <h2 id="q3">Food delivery services</h2>
 
