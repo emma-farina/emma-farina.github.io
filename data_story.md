@@ -291,6 +291,8 @@ Now that we are getting ready for the end of the pandemic, it is natural to wond
 		
 		<p align="justify">You can have a first overview of the data by looking at the plots below, which shows the evolution of the food delivery interest for each country between 2018 and 2022 against the Google mobility data.</p>
 		
+		<iframe src="./plots/Food_delivery_against_Mobility_data.html" height=550 width=1200></iframe>
+		
 		<p align="justify">Looking at the graphs for the different countries, a clear difference in general interest in food delivery between the period before and after the first restrictions on mobility is immediately visible. Furthermore, the negative correlation between the two time series in the pandemic period is very evident. It is also interesting to note that in Serbia, Turkey, and Spain, with the easing of restrictions in the last period of the pandemic, even greater mobility is being recorded compared to the baseline considered by Google. In any case, while for Spain and Turkey, this increase in mobility is followed by a decrease in interest in food delivery, for Serbia, this maintains a positive trend.</p>
 		<p align="justify">To give a general overview, all countries show a steep increase in food delivery searches immediately after the first restrictive measures. From that moment on, the interest in food delivery looks closely related to mobility. However, Serbia is the only country where the food delivery trend remains growing. Again in Serbia, we don't find the steep increase mentioned, but a significant peak around October 2022, when the nation experienced a considerable wave of COVID-19 infections. Turkey has a unique behavior, as it is the only country where restrictions seem to be positively correlated with food delivery.</p>
 		<p align="justify">But let's analyze in more detail what we have visualized in the plots.</p>
@@ -298,8 +300,6 @@ Now that we are getting ready for the end of the pandemic, it is natural to wond
 		<h4>Modeling</h4>
 		
 		<p align="justify">Having initially explored the data, we will now investigate the presence of a structural change in the levels of interest for food delivery before and after the starting of the mobility restrictions. Later, we will explore whether causality exists between mobility and the food delivery interest. To conclude, to have a proactive and forward-looking perspective, we thought of building a forecasting model that allows expecting the future and could be helpful for investors, journalists or researchers.</p>
-		
-		<h4>Modeling</h4>
 		
 		<p align="justify">We used a t-test to test the null hypothesis that pre- and post-pandemic interest in food delivery has the same average value. For all countries, the resulting p-value was less than 0.05, therefore rejecting the null hypothesis.</p>
 			
