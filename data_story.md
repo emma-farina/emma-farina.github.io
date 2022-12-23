@@ -167,38 +167,43 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 		<tbody>
 			<tr>
 				<td>Italian (it)</td>
-				<td>0.006</td>
-				<td>0.948</td>
+				<td>0.103</td>
+				<td>0.226</td>
 			</tr>
 			<tr>
 				<td>German (de)</td>
-				<td>0.569</td>
-				<td>2.69e-13</td>
+				<td>-0.619</td>
+				<td>3.65e-16</td>
 			</tr>
 			<tr>
 				<td>Dutch (nl)</td>
-				<td>-0.017</td>
-				<td>0.838</td>
+				<td>-0.035</td>
+				<td>0.682</td>
+			</tr>
+			<tr>
+				<td>Serbian (sr)</td>
+				<td>-0.337</td>
+				<td>4.91e-05</td>
 			</tr>
 			<tr>
 				<td>Turkish (tr)</td>
-				<td>-0.051</td>
-				<td>0.555</td>
+				<td>0.399</td>
+				<td>1.02e-06</td>
 			</tr>
 			<tr>
 				<td>Catalan (ca)</td>
-				<td>0.003</td>
-				<td>0.969</td>
+				<td>-0.044</td>
+				<td>0.606</td>
 			</tr>
 			<tr>
 				<td>Finnish (fi)</td>
-				<td>0.169</td>
-				<td>0.047</td>
+				<td>-0.283</td>
+				<td>0.000704</td>
 			</tr>
 			<tr>
 				<td>English (en)</td>
-				<td>0.058</td>
-				<td>0.497</td>
+				<td>-0.052</td>
+				<td>0.541</td>
 			</tr>
 		</tbody>
 	</table>
