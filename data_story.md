@@ -304,7 +304,7 @@ Now that we are getting ready for the end of the pandemic, it is natural to wond
 		<table class="alt" style="width: 50%; margin: 0 auto; text-align:center"> 
 			<thead> 
 				<tr> 
-					<th style="text-align:center">Language</th> 
+					<th style="text-align:center">Country</th> 
 					<th style="text-align:center">t-statistics</th> 
 					<th style="text-align:center">p-value</th> 
 				</tr> 
@@ -360,8 +360,8 @@ Now that we are getting ready for the end of the pandemic, it is natural to wond
 		<table class="alt" style="width: 50%; margin: 0 auto; text-align:center">
                 	<thead> 
 				<tr> 
-					<th style="text-align:center">Language</th> 
-					<th style="text-align:center">t-statistics</th> 
+					<th style="text-align:center">Country</th> 
+					<th style="text-align:center">Spearman's correlation</th> 
 					<th style="text-align:center">p-value</th> 
 				</tr> 
 			</thead> 
@@ -412,6 +412,22 @@ Now that we are getting ready for the end of the pandemic, it is natural to wond
 		<p align="justify"><br>The correlation with mobility data appears significant for all countries except for Finland. Furthermore, as previously visualized through the plots, Serbia and Turkey are the only countries with a positive correlation coefficient. This singular behavior is counterintuitive and deserves further exploration.</p>
 		<p align="justify">One factor to consider is Turkey's economy relies on its migrant workforce while benefiting greatly from remittances and the strong ties between expatriate Turks and families back home. The Coronavirus measures at home and abroad have significantly upset this balance, thus strongly impacting the Turkish economy. In general, workers' incomes have decreased, working hours have changed, and their financial difficulties have worsened, significantly affecting their livelihoods. This could be one of the reasons why food delivery companies have recorded a sharp decrease in interest during the initial "Covid shock period".</p>
 		<p align="justify">As far as Serbia is concerned, it should be considered that in the pre-pandemic period, searches were close to zero, underlining the scarce diffusion of food delivery services in the country. For this reason, it may be that the restrictions have acted as a vehicle for its spread. Still, unlike in other countries, it has taken a while for people to become aware of this possibility's existence. This could explain the significant peak in the third covid wave and the growing trend.</p>
+		
+		<h4>Can we say the mobility restrictions caused the rise of food delivery services?</h4>
+		
+		<p align="justify">Considering the significant difference in people's interest in food delivery and the observed correlation with mobility restrictions, it seems appropriate to verify the latter's causality in influencing people's preferences. For this purpose, we will run a test of Granger's causality. According to Granger causality, if a series X "Granger-causes" a series Y, then past values of X should contain information that helps predict Y. A prerequisite for performing the Granger causality test is that the time series have to be stationary. For this purpose, we look at the p-value of the Augmented Dickey-Fuller test and differentiate the time series in the case of non-stationarity.</p>
+		<p align="justify">Considering the long pandemic period and the different COVID-19 waves of various entities, we imagine a possible difference in people's responses in the long run. For this reason, we divide the pandemic period into three sub-time intervals:
+	<ul>
+  		<li>An initial period, also called the 'COVID-19 Shock Period', which corresponds to the onset of COVID-19, and extends up to the end of the first hardest mobility restrictions;</li>
+  		<li>A second period, also called 'Second waves', that starts from the end of the first hardest mobility restrictions, includes the return of the covid and extends until the new return to normal in the autumn of 2021;</li>
+  		<li>A third period that extends until November 1, 2022.</li>
+	</ul>
+		Below we show the matrix summarizing the results of the Granger causality test, therefore showing the p-values for each test and the corresponding week lag.</p>
+		
+		<iframe src="./plots/week lag Granger causality.html" height=550 width=1200></iframe>
+		<iframe src="./plots/p-values Granger causality.html" height=550 width=1200></iframe>
+	
+		<p align="justify">Considering the whole pandemic period, the restrictions on Italy, Great Britain, Germany, and Spain significantly influence the interest in food delivery at a 1-week lag. Interestingly, Germany maintains this condition in the first and second periods of the pandemic but not in the last one. Spain and Great Britain also maintain the significant influence of the restrictions, although not during the 'Second waves' period. On the other hand, Italy's mobility restrictions have considerably impacted food delivery only in the last period. Good results are also obtained for the Netherlands, demonstrating significant causality in the last two pandemic periods. Finland shows a causality relation only in the second period, while Serbia and Turkey still behave differently from the other countries, showing insignificant results in each period under study. Interestingly but not surprisingly, most of the significant results were obtained after a week of lag between mobility and food delivery interest, demonstrating the short influence range between restrictions and people's responses to eating behaviors.</p> 
  
 
 <h2 id="conclusion">Conclusion</h2>
