@@ -142,7 +142,7 @@ Barplots (one bar per language) with healthy and unhealthy bar on top of each ot
 		</tbody>
 	</table>
 		
-	<p align="justify">Interestingly, a significant change was found in the Dutch Wikipedia and especially in the English Wikipedia, so there is an interest shift of the whole world population. Since the t-statistics is negative, meaning that the ratio decreased, this shows that people tended to search more dishes related to foreign cuisines, rather than their own traditional food.</p>
+	<p align="justify"><br>Interestingly, a significant change was found in the Dutch Wikipedia and especially in the English Wikipedia, so there is an interest shift of the whole world population. Since the t-statistics is negative, meaning that the ratio decreased, this shows that people tended to search more dishes related to foreign cuisines, rather than their own traditional food.</p>
 		
 	<h4>Was the interest shift related to mobility restrictions?</h4>
 		
